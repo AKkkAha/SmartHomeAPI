@@ -12,11 +12,11 @@ class Socket_Cls(object):
 
     def conn(self):
         try:
-            print "prepare to connect to %s" % self.host
+            #print "prepare to connect to %s" % self.host
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.connect((self.host, self.port))
             self.tcplink = sock
-            print "connect success"
+            #print "connect success"
             return sock
         except Exception as e:
             return e
