@@ -4,6 +4,8 @@ phonenum = config.phonenum
 
 case_aggregate = [
     {"um_auth": "APP自动登录"},
+    {"um_kickoff_client": "踢出其他终端用户"},
+    {"fm_update_family": "更新家庭基本信息"},
     {"fm_create_family": "创建家庭"}
 ]
 
@@ -76,4 +78,57 @@ def um_check_phone_code(code, phonenum = config.phonenum):
                     "code": code
                 }
         }
+    }
+
+def um_auth(token):
+    return{
+        "uuid": "000c229d200000000000D0B60A0001C8",
+        "encry": "false",
+        "content":
+            {
+                "method": "um_auth",
+                "timestamp": 12345667,
+                "req_id": 123,
+                "params": {
+                    "user_id": token['user_id'],
+                    "token": token["token"],
+                    "os_type": "Android"
+                }
+            }
+    }
+
+def um_kickoff_client(token):
+    return
+
+def fm_create_family():
+    return {
+        "uuid": "000c229d200000000000D0B60A0001C8",
+        "encry": "false",
+        "content":
+            {
+                "method": "fm_create_family",
+                "req_id": 123,
+                "timestamp": 123456890,
+                "params": {
+                    "family_name": "API测试的家"
+                }
+            }
+    }
+
+def fm_update_family():
+    return {
+        "uuid": "000c229d200000000000D0B60A0001C8",
+        "encry": "false",
+        "content":
+            {
+                "method": "fm_update_family",
+                "req_id": 123,
+                "timestamp": 123456890,
+                "params": {
+                    "family_id": 123,
+                    "family_name": "API更新的家",
+                    "family_avatar": "",
+                    "family_background": "http://111"
+                }
+            }
     }
