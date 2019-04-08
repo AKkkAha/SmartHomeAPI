@@ -1,0 +1,18 @@
+2019-04-07 17:05:01,496 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-07 17:05:01,496 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"phone": "18200183087", "type": 1}, "method": "um_get_phone_code", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C8"}
+
+
+2019-04-07 17:05:01,637 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C8", "encry":"false", "content":{"method":"um_get_phone_code", "timestamp":1554627902, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1554627902_11460804","msg_uuid":"000c229d200000000000D0B60A0001C8","msg_encry":"false","session_id":"210.21.229.154_7559_1554627902_11460803", "code":-17006, "msg":"phone number have register","rcv_stmp":1554627902234474,"process_stmp":1554627902234582,"rsp_stmp":1554627902235469}}
+
+
+2019-04-07 17:05:21,651 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-07 17:05:21,651 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"phone": "18200183087", "type": 2}, "method": "um_get_phone_code", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C8"}
+
+
+2019-04-07 17:05:21,676 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C8", "encry":"false", "content":{"method":"um_get_phone_code", "timestamp":1554627922, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1554627922_11460902","msg_uuid":"000c229d200000000000D0B60A0001C8","msg_encry":"false","session_id":"210.21.229.154_7838_1554627922_11460901", "code":0, "msg":"success","rcv_stmp":1554627922387727,"process_stmp":1554627922387806,"rsp_stmp":1554627922401043}}
+
+
+2019-04-07 17:05:29,678 - logger - INFO - get code failed!!
+

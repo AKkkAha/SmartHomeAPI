@@ -1,2 +1,4 @@
 # -*- coding:utf-8 -*-
-phonenum = '18200183087'
+phonenum = '18588826721'
+
+Test_Case = ["um_test", "fm_test"]

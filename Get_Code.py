@@ -3,6 +3,7 @@
 import time
 import paramiko
 import re
+import logger
 
 def get_phone_code(phonenumber, timeouts=5):
     try:
@@ -27,9 +28,13 @@ def get_phone_code(phonenumber, timeouts=5):
         # response = bytes.decode(res).rstrip('\n')
         client.close()
         msg = '获取验证码：%s' % response
+        if response == None:
+            print "get code failed, try again!"
+            logger.logcls.initial().log("get code failed, try again!")
         #logger.logger.info(msg)
         return response
     except:
         # print(traceback.format_exc())
         # raise CustomException('获取验证码失败')
-        pass
+        print "get code failed"
+        logger.logcls.initial().log("get code failed!!")
