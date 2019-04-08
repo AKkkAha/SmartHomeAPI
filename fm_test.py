@@ -1,21 +1,18 @@
 # -*- coding:utf-8 -*-
 import config
-phonenum = config.phonenum
 
 case_aggregate = [
-    {"fm_create_family": "创建家庭"},
     {"fm_update_family": "更新家庭基本信息"},
     {"fm_get_member_list": "获取成员信息列表"},
     {"fm_create_member": "创建家庭成员"},
     {"fm_get_apply_code": "获取用户申请码"},
-    {"fm_get_family_list": "获取用户加入的家庭列表"}
-
-
+    {"fm_get_family_list": "获取用户加入的家庭列表"},
+    {"mdp_msg": "MDP家庭路由转发"}
 ]
 
 def fm_create_family():
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -30,7 +27,7 @@ def fm_create_family():
 
 def fm_update_family(family_id):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -48,7 +45,7 @@ def fm_update_family(family_id):
 
 def fm_get_member_list(family_id):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -63,7 +60,7 @@ def fm_get_member_list(family_id):
 
 def fm_create_member(family_id):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -79,7 +76,7 @@ def fm_create_member(family_id):
 
 def fm_get_apply_code(family_id):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -94,12 +91,33 @@ def fm_get_apply_code(family_id):
 
 def fm_get_family_list(family_id):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
                 "method": "fm_get_family_list",
                 "req_id": 123,
                 "timestamp": 12312312
+            }
+    }
+
+def mdp_msg(family_id):
+    return {
+        "uuid": config.router_uuid,
+        "encry": "false",
+        "content":
+            {
+                "uuid": config.router_uuid,
+                "encry": "false",
+                "content": {
+                    "method": "mdp_msg",
+                    "timestamp": 123456789,
+                    "req_id": 123,
+                    "params": {
+                        "msg_type": "P2F",
+                        "target_id": 100,
+                        "content": "hello my home!"
+                    }
+                }
             }
     }

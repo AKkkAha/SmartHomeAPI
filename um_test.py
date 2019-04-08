@@ -11,7 +11,7 @@ case_aggregate = [
 
 def um_get_phone_code(phonenum = config.phonenum):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -27,7 +27,7 @@ def um_get_phone_code(phonenum = config.phonenum):
 
 def um_login_code(code, phonenum = config.phonenum):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -49,7 +49,7 @@ def um_login_code(code, phonenum = config.phonenum):
 
 def um_register_user(phonenum = config.phonenum):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -65,7 +65,7 @@ def um_register_user(phonenum = config.phonenum):
 
 def um_check_phone_code(code, phonenum = config.phonenum):
     return {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
@@ -82,7 +82,7 @@ def um_check_phone_code(code, phonenum = config.phonenum):
 
 def um_auth(token):
     return{
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {

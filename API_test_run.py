@@ -66,8 +66,14 @@ def regist_user(socket_ins, log):
         print "用例 校验手机验证码 失败"
         #print msg
 
-def get_fmid(socket_ins, log):
+def get_fmid(socket_ins, log, token):
     socket_ins.conn()
+    socket_ins.send_msg(um_test.um_auth(token))
+    msg = json.loads(socket_ins.recv_msg())
+    if msg["content"]["req_id"] != 123 or msg["content"]["code"] != 0:
+        print "authory login failed"
+        socket_ins.send_msg(um_test.um_auth(token))
+        socket_ins.recv_msg()
     socket_ins.send_msg(fm_test.fm_create_family())
     msg = json.loads(socket_ins.recv_msg())
     if msg["content"]["req_id"] == 123 and msg["content"]["code"] == 0:
@@ -86,31 +92,37 @@ def test_run():
     socket_api = Socket_Cls()
     # regist_user(socket_api, log)
     # time.sleep(10)
+    #token = get_token(socket_api, log)
+    token = config.token
     for aggr_name in config.Test_Case:
         aggr = __import__(aggr_name)
         if aggr_name == "um_test":
-            token = get_token(socket_api, log)
             if not token:
                 token = get_token(socket_api, log)
             arg = token
-        elif aggr_name == "fm_test":
-            family_id = get_fmid(socket_api, log)
+        else:
+            family_id = get_fmid(socket_api, log, token)
             arg = family_id
         test_case = aggr.case_aggregate
         for operation in test_case:
-            print operation
             operate, case_name = operation.items()[0]
             time.sleep(2)
             socket_api.conn()
+            socket_api.send_msg(um_test.um_auth(token))
+            msg = json.loads(socket_api.recv_msg())
+            if msg["content"]["req_id"] != 123 or msg["content"]["code"] != 0:
+                print "authory login failed"
+                socket_api.send_msg(um_test.um_auth(token))
+                socket_api.recv_msg()
             msg = getattr(aggr, operate)(arg)
             socket_api.send_msg(msg)
             msg = json.loads(socket_api.recv_msg())
             if msg["content"]["req_id"] == 123 and msg["content"]["code"] == 0:
-                log.log("用例 $s 成功" % case_name)
-                print "用例 $s 成功" % case_name
+                log.log("用例 %s 成功" % str(case_name))
+                print "用例 %s 成功" % str(case_name)
             else:
-                log.log("用例 %s           失败" % case_name)
-                print "用例 %s 失败" % case_name
+                log.log("用例 %s           失败" % str(case_name))
+                print "用例 %s 失败" % str(case_name)
                 print msg
     #socket_api.close_conn()
     #return token
