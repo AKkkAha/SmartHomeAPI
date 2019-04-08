@@ -57,7 +57,7 @@ def dm_get_room_list(family_id):
             }
     }
 
-def dm_get_room_list(family_id):
+def dm_get_shortcut_list(family_id):
     return {
         "uuid": config.router_uuid,
         "encry": "false",
@@ -78,7 +78,7 @@ def dm_get_room_list(family_id):
         }
     }
 
-def dm_get_roodm_del_roomm_list(family_id):
+def dm_del_room(family_id):
     return {
         "uuid": config.router_uuid,
         "encry": "false",

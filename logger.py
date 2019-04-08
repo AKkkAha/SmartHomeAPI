@@ -6,7 +6,7 @@ import os
 
 class logcls:
     _singleton = None
-    logger=None
+    logger = None
 
     def __init__( self):
         pass

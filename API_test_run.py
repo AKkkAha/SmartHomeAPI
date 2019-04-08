@@ -94,13 +94,14 @@ def test_run():
     # time.sleep(10)
     #token = get_token(socket_api, log)
     token = config.token
+    family_id = None
     for aggr_name in config.Test_Case:
         aggr = __import__(aggr_name)
         if aggr_name == "um_test":
             if not token:
                 token = get_token(socket_api, log)
             arg = token
-        else:
+        elif family_id == None:
             family_id = get_fmid(socket_api, log, token)
             arg = family_id
         test_case = aggr.case_aggregate
@@ -123,7 +124,7 @@ def test_run():
             else:
                 log.log("用例 %s           失败" % str(case_name))
                 print "用例 %s 失败" % str(case_name)
-                print msg
+                print "###### failure msg ###### : " + str(msg)
     #socket_api.close_conn()
     #return token
 

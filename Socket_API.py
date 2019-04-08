@@ -32,7 +32,7 @@ class Socket_Cls(object):
 
     def send_msg(self, msg):
         msg = json.dumps(msg) + '\n'
-        print msg
+        print "------send------: " + msg
         try:
             self.tcplink.send(msg)
             self.log.log("----------send msg----------: "+msg)
@@ -44,10 +44,10 @@ class Socket_Cls(object):
 
     def recv_msg(self):
         try:
-            msg = self.tcplink.recv(1024)
-            print msg
+            msg = self.tcplink.recv(2048)
+            print "------recv------: " + msg
             self.log.log("----------recv msg----------: "+msg)
-            return msg
+            return msg.split("\n")[0]
         except Exception as e:
             self.log.log("recv exception: " + e)
 

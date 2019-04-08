@@ -7,7 +7,8 @@ case_aggregate = [
     {"fm_create_member": "创建家庭成员"},
     {"fm_get_apply_code": "获取用户申请码"},
     {"fm_get_family_list": "获取用户加入的家庭列表"},
-    {"mdp_msg": "MDP家庭路由转发"}
+    {"mdp_msg": "MDP家庭路由转发"},
+    #{"fm_delete_family": "删除家庭"}
 ]
 
 def fm_create_family():
@@ -118,6 +119,21 @@ def mdp_msg(family_id):
                         "target_id": 100,
                         "content": "hello my home!"
                     }
+                }
+            }
+    }
+
+def fm_delete_family(family_id):
+    return {
+        "uuid": config.router_uuid,
+        "encry": "false",
+        "content":
+            {
+                "method": "fm_delete_family",
+                "req_id": 123,
+                "timestamp": 123456890,
+                "params": {
+                    "family_id": family_id
                 }
             }
     }

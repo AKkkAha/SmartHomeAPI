@@ -3,11 +3,12 @@
 import socket
 import json
 import time
+import config
 from API_test_run import *
 uuid = '000c229d200000000000D0B60A0001C8'
 socket_test = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket_test.connect(("119.23.168.152", 30086))
-token = test_run()
+token = config.token
 send_msg = {
         "uuid": "000c229d200000000000D0B60A0001C8",
         "encry": "false",
@@ -28,22 +29,23 @@ print send_msg
 socket_test.send(send_msg+'\n')
 recv_msg = socket_test.recv(1024)
 print recv_msg
-send_msg = {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+family_id = 22624
+for i in range(2):
+    family_id += 3
+    send_msg = {
+        "uuid": config.router_uuid,
         "encry": "false",
         "content":
             {
-                "method": "fm_create_family",
+                "method": "fm_get_family_list",
                 "req_id": 123,
-                "timestamp": 123456890,
-                "params": {
-                    "family_name": "API测试的家"
-                }
+                "timestamp": 12312312
             }
     }
-send_msg = json.dumps(send_msg)
-print send_msg
-socket_test.send(send_msg+'\n')
-recv_msg = socket_test.recv(1024)
-print recv_msg
+    send_msg = json.dumps(send_msg)
+    print send_msg
+    socket_test.send(send_msg+'\n')
+    recv_msg = socket_test.recv(1024)
+    print recv_msg
+    time.sleep(1)
 socket_test.close()
