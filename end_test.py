@@ -1,12 +1,32 @@
 # -*- coding:utf-8 -*-
 import config
+import time
 
 case_aggregate = [
-    {"fm_unbind_router": "解绑定路由器"},
+    {"fm_unbind_router": "app调用解绑定路由器"},
+    {"dm_unbind_router": "router调用解绑路由器"},
     {"fm_delete_family": "删除家庭"}
 ]
 
+def fm_unbind_router(family_id):
+    timestamp = int(time.time())
+    return {
+        "uuid": config.router_uuid,
+        "encry": "false",
+        "content":
+            {
+                "method": "fm_unbind_router",
+                "timestamp": 123456123,
+                "req_id": 123,
+                "params": {
+                    "family_id": family_id,
+                    "unbind_time": timestamp
+                }
+            }
+    }
+
 def dm_unbind_router(family_id):
+    timestamp = int(time.time())
     return {
         "uuid": config.router_uuid,
         "encry": "false",
@@ -17,8 +37,8 @@ def dm_unbind_router(family_id):
                 "req_id": 123,
                 "params": {
                     "family_id": family_id,
-                    "user_id": 123,
-                    "unbind_time": 1234567890
+                    "user_id": config.user_id,
+                    "unbind_time": timestamp
                 }
             }
     }
