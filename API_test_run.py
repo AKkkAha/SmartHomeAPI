@@ -18,20 +18,20 @@ def get_token(socket_ins, log):
         log.log("用例 获取手机登陆验证码 成功")
         print "用例 获取手机登陆验证码 成功"
     else:
-        log.log("用例 获取手机登陆验证码 失败")
-        print "用例 获取手机登陆验证码 失败"
+        log.log("用例 获取手机登陆验证码 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"])))
+        print "用例 获取手机登陆验证码 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"]))
         #print msg
     code = Get_Code.get_phone_code(config.phonenum)
     print "login code: " + code
     socket_ins.send_msg(um_test.um_login_code(code))
-    msg = json.loads(socket_ins.recv_msg())
+    msg = json.loads(socket_ins.recv_msg().split("\n")[0])
     socket_ins.close_conn()
     if msg["content"]["req_id"] == 123 and msg["content"]["code"] == 0:
         log.log("用例 APP验证码登陆 成功")
         print "用例 APP验证码登陆 成功"
     else:
-        log.log("用例 APP验证码登陆 失败")
-        print "用例 APP验证码登陆 失败"
+        log.log("用例 APP验证码登陆 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"])))
+        print "用例 APP验证码登陆 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"]))
         #print msg
     try:
         token_msg = msg["content"]["result"]
@@ -48,8 +48,8 @@ def regist_user(socket_ins, log):
         log.log("用例 获取手机注册验证码 成功")
         print "用例 获取手机注册验证码 成功"
     else:
-        log.log("用例 获取手机注册验证码 失败")
-        print "用例 获取手机注册验证码 失败"
+        log.log("用例 获取手机注册验证码 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"])))
+        print "用例 获取手机注册验证码 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"]))
         #print msg
         return
     #print socket_ins.recv_msg()
@@ -62,26 +62,26 @@ def regist_user(socket_ins, log):
         log.log("用例 校验手机验证码 成功")
         print "用例 校验手机验证码 成功"
     else:
-        log.log("用例 校验手机验证码       失败")
-        print "用例 校验手机验证码 失败"
+        log.log("用例 校验手机验证码 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"])))
+        print "用例 校验手机验证码 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"]))
         #print msg
 
 def get_fmid(socket_ins, log, token):
     socket_ins.conn()
     socket_ins.send_msg(um_test.um_auth(token))
     msg = json.loads(socket_ins.recv_msg())
-    if msg["content"]["req_id"] != 123 or msg["content"]["code"] != 0:
-        print "authory login failed"
-        socket_ins.send_msg(um_test.um_auth(token))
-        socket_ins.recv_msg()
+    # if msg["content"]["req_id"] != 123 or msg["content"]["code"] != 0:
+    #     print "authory login failed"
+    #     socket_ins.send_msg(um_test.um_auth(token))
+    #     socket_ins.recv_msg()
     socket_ins.send_msg(fm_test.fm_create_family())
     msg = json.loads(socket_ins.recv_msg())
     if msg["content"]["req_id"] == 123 and msg["content"]["code"] == 0:
         log.log("用例 创建家庭 成功")
         print "用例 创建家庭 成功"
     else:
-        log.log("用例 创建家庭 失败")
-        print "用例 创建家庭 失败"
+        log.log("用例 创建家庭 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"])))
+        print "用例 创建家庭 失败 code: %s msg: %s" % (str(msg["content"]["code"]), str(msg["content"]["msg"]))
         #print msg
         return
     family_id = msg["content"]["result"]["family_id"]
@@ -109,12 +109,21 @@ def test_run():
             operate, case_name = operation.items()[0]
             time.sleep(2)
             socket_api.conn()
-            socket_api.send_msg(um_test.um_auth(token))
-            msg = json.loads(socket_api.recv_msg())
-            if msg["content"]["req_id"] != 123 or msg["content"]["code"] != 0:
-                print "authory login failed"
+            if operate == "dm_bind_router":
+                msg = getattr(aggr, "dm_auth_router")(arg)
+                socket_api.send_msg(msg)
+                json.loads(socket_api.recv_msg())
+            else:
                 socket_api.send_msg(um_test.um_auth(token))
-                socket_api.recv_msg()
+                json.loads(socket_api.recv_msg())
+            # if operate == "dm_bind_router":
+            #     msg = getattr(aggr, "dm_auth_router")(arg)
+            #     socket_api.send_msg(msg)
+            #     msg = json.loads(socket_api.recv_msg())
+            # if msg["content"]["req_id"] != 123 or msg["content"]["code"] != 0:
+            #     print "authory login failed"
+            #     socket_api.send_msg(um_test.um_auth(token))
+            #     socket_api.recv_msg()
             msg = getattr(aggr, operate)(arg)
             socket_api.send_msg(msg)
             msg = json.loads(socket_api.recv_msg())
@@ -122,8 +131,8 @@ def test_run():
                 log.log("用例 %s 成功" % str(case_name))
                 print "用例 %s 成功" % str(case_name)
             else:
-                log.log("用例 %s           失败" % str(case_name))
-                print "用例 %s 失败" % str(case_name)
+                log.log("用例 %s 失败 code: %s msg: %s" % (str(case_name), str(msg["content"]["code"]), str(msg["content"]["msg"])))
+                print "用例 %s 失败 code: %s msg: %s" % (str(case_name), str(msg["content"]["code"]), str(msg["content"]["msg"]))
                 print "###### failure msg ###### : " + str(msg)
     #socket_api.close_conn()
     #return token

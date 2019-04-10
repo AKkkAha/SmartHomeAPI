@@ -12,6 +12,8 @@ import config
 case_aggregate = [
     {"dl_upgrade_app": "APP检查升级"},
     {"dl_upgrade_h5": "H5资源包检查升级"},
+    # {"dl_upgrade_app_fail": "APP检查升级_反例"},
+    # {"dl_upgrade_h5_fail": "H5资源包检查升级_反例"},
     # {"dl_report_upgrade_sta": "升级结果回调"},
     # {"dl_oss_sts": "获取oss sts"}
 ]
@@ -96,7 +98,7 @@ def dl_upgrade_h5(app_uuid):
                     "router_version": "0.1.0",
                     "router_uuid": config.router_uuid,
                     "app_uuid": config.app_uuid,
-                    "user_id": 1001,
+                    "user_id": config.user_id,
                     "list": [
                         {
                             "product_id": "a",
@@ -129,6 +131,53 @@ def dl_upgrade_rounter(family_id):
                             "product_id": "000c229d20",
                             "version": "1",
                             "android_system_version": "0.2"
+                        }
+                    ]
+                }
+            }
+    }
+
+def dl_upgrade_app_fail(app_uuid):
+    return{
+        "uuid": config.router_uuid,
+        "encry": "false",
+        "content":
+            {
+                "method": "dl_upgrade_app",
+                "timestamp": 12345667,
+                "req_id": 123,
+                "msg_tag": "xx",
+                "params": {
+                            "os_type": "Android", # 大小写敏感
+                            "app_version": "0.1.0",
+                            "router_version": "0.1.0",
+                            "app_uuid": config.app_uuid,
+                            "router_uuid": config.router_id,      #
+                            "user_id": config.user_id
+                }
+            }
+    }
+
+def dl_upgrade_h5_fail(app_uuid):
+    return{
+        "uuid": config.router_uuid,
+        "encry": "false",
+        "content":
+            {
+                "method": "dl_upgrade_h5",
+                "timestamp": 12345667,
+                "req_id": 123,
+                "params": {
+                    "app_version": "0.1.0",
+                    "os_type": "ios",
+                    "router_version": "0.1.0",
+                    "router_uuid": config.router_id,          #
+                    "app_uuid": config.app_uuid,
+                    "user_id": config.user_id,
+                    "list": [
+                        {
+                            "product_id": "a",
+                            "version": "0.0.1"
                         }
                     ]
                 }

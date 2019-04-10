@@ -25,7 +25,7 @@ class Socket_Cls(object):
             #print "connect success"
             return sock
         except Exception as e:
-            self.log.log("connection exception: " + e)
+            self.log.log("connection exception: " + str(e))
             time.sleep(3)
             self.conn()
 
@@ -37,19 +37,30 @@ class Socket_Cls(object):
             self.tcplink.send(msg)
             self.log.log("----------send msg----------: "+msg)
         except Exception as e:
-            self.log.log("send exception: " + e)
+            self.log.log("send exception: " + str(e))
             time.sleep(3)
             self.conn()
             self.send_msg(msg)
+
+    def wash_msg(self, msg):
+        msg = json.loads(msg)
+        if msg["content"]["req_id"] == 123:
+            return True
+        else:
+            return False
 
     def recv_msg(self):
         try:
             msg = self.tcplink.recv(2048)
             print "------recv------: " + msg
             self.log.log("----------recv msg----------: "+msg)
-            return msg.split("\n")[0]
+            for each_msg in msg.split("\n"):
+                if self.wash_msg(each_msg):
+                    print "washed msg: " + str(each_msg)
+                    return each_msg
+            self.recv_msg()
         except Exception as e:
-            self.log.log("recv exception: " + e)
+            self.log.log("recv exception: " + str(e))
 
     def check_msg(self, req_id, msg):
         if msg["req_id"] == req_id:
@@ -60,4 +71,5 @@ class Socket_Cls(object):
     def close_conn(self):
         self.tcplink.close()
         self.log.log("disconnected to %s:%s" % (self.host, self.port))
+
 
