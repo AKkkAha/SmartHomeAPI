@@ -1,0 +1,58 @@
+2019-04-25 16:52:17,479 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-25 16:52:19,838 - result - INFO - 用例    PASS    APP自动登录
+2019-04-25 16:52:21,976 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-25 16:52:24,065 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-25 16:52:26,220 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-25 16:52:28,558 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-25 16:52:32,802 - result - INFO - 用例    PASS    用户更新资料
+2019-04-25 16:52:34,937 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-25 16:52:35,163 - result - INFO - 用例    PASS    创建家庭
+2019-04-25 16:52:37,269 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-25 16:52:39,417 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-25 16:52:41,990 - result - INFO - 用例    FAIL    创建家庭成员  code: -16013 msg: family owner cannot invite himself to join
+2019-04-25 16:52:44,084 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-25 16:52:46,471 - result - INFO - 用例    PASS    获取用户加入的家庭列表
+2019-04-25 16:52:48,519 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-25 16:52:50,730 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-25 16:52:52,918 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-25 16:52:55,181 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-25 16:52:57,354 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-25 16:52:59,486 - result - INFO - 用例    PASS    获取用户账户信息
+2019-04-25 16:53:01,596 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-25 16:53:08,832 - result - INFO - 用例    FAIL    获取品类的属性列表  time out
+2019-04-25 16:53:16,099 - result - INFO - 用例    FAIL    获取产品列表  time out
+2019-04-25 16:53:23,336 - result - INFO - 用例    FAIL    获取设备品类列表  time out
+2019-04-25 16:53:25,430 - result - INFO - 用例    PASS    获取产品的引导信息
+2019-04-25 16:53:27,571 - result - INFO - 用例    PASS    获取具体产品的属性
+2019-04-25 16:53:29,668 - result - INFO - 用例    PASS    消息已读确认
+2019-04-25 16:53:31,904 - result - INFO - 用例    PASS    添加消息
+2019-04-25 16:53:34,108 - result - INFO - 用例    PASS    删除消息
+2019-04-25 16:53:36,318 - result - INFO - 用例    PASS    加载消息列表
+2019-04-25 16:53:38,538 - result - INFO - 用例    PASS    获取满足条件的消息总数
+2019-04-25 16:53:40,756 - result - INFO - 用例    PASS    修改消息
+2019-04-25 16:53:42,992 - result - INFO - 用例    FAIL    通知app版本更新  code: -8003 msg: invalid method.
+2019-04-25 16:53:45,335 - result - INFO - 用例    FAIL    通知rounter版本更新  code: -8003 msg: invalid method.
+2019-04-25 16:53:47,414 - result - INFO - 用例    PASS    添加房间
+2019-04-25 16:53:49,539 - result - INFO - 用例    PASS    获取房间列表
+2019-04-25 16:53:51,627 - result - INFO - 用例    FAIL    添加快捷方式  code: -15024 msg: Duplicate entry '21767-123' for key 'F_family_id'
+2019-04-25 16:53:53,773 - result - INFO - 用例    PASS    修改快捷方式位置
+2019-04-25 16:53:55,914 - result - INFO - 用例    PASS    全量更新快捷方式
+2019-04-25 16:53:58,032 - result - INFO - 用例    PASS    修改快捷方式
+2019-04-25 16:54:00,368 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-04-25 16:54:02,548 - result - INFO - 用例    PASS    更新快捷方式是否可见
+2019-04-25 16:54:04,630 - result - INFO - 用例    PASS    删除快捷方式
+2019-04-25 16:54:06,786 - result - INFO - 用例    PASS    修改房间信息
+2019-04-25 16:54:08,890 - result - INFO - 用例    PASS    全量刷新房间
+2019-04-25 16:54:11,141 - result - INFO - 用例    PASS    修改房间图标位置
+2019-04-25 16:54:13,201 - result - INFO - 用例    PASS    删除房间
+2019-04-25 16:54:15,736 - result - INFO - 用例    PASS    添加设备
+2019-04-25 16:54:17,832 - result - INFO - 用例    PASS    陌生设备第一次接入
+2019-04-25 16:54:19,957 - result - INFO - 用例    PASS    刷新设备
+2019-04-25 16:54:22,114 - result - INFO - 用例    PASS    获取设备信息
+2019-04-25 16:54:24,161 - result - INFO - 用例    PASS    按照家庭获取设备列表
+2019-04-25 16:54:26,365 - result - INFO - 用例    PASS    按照房间获取设备列表
+2019-04-25 16:54:28,645 - result - INFO - 用例    PASS    获取家庭设备品类列表
+2019-04-25 16:54:30,937 - result - INFO - 用例    PASS    获取设备状态列表
+2019-04-25 16:54:33,094 - result - INFO - 用例    FAIL    全量刷新设备  code: -15004 msg: Permission denied
+2019-04-25 16:54:35,236 - result - INFO - 用例    PASS    上报设备状态
+2019-04-25 16:54:37,299 - result - INFO - 用例    PASS    删除设备状态

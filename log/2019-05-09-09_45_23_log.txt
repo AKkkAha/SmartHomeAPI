@@ -1,0 +1,12 @@
+2019-05-09 09:45:23,835 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-05-09 09:45:23,835 - logger - INFO - ----------send msg----------: "{\"content\": {\"timestamp\": 1557366323, \"params\": {\"os_version\": \"android4.3\", \"secret\": \"e10adc3949ba59abbe56e057f20f883e\", \"hardware_version\": \"Huawei\", \"phone\": \"18200183087\", \"pwd\": \"123456\", \"os_type\": \"Android\", \"app_version\": \"v0.5\"}, \"method\": \"um_register_user\", \"req_id\": 123}, \"encry\": \"false\", \"uuid\": \"18926592010\"}\n"
+
+
+2019-05-09 09:45:23,865 - logger - INFO - ----------recv msg----------: {"uuid":"", "encry":"false", "content":{"method":"", "timestamp":1557366323, "req_id":0, "msg_tag":"Access_Svr_119.23.168.152_30086_1557366323_2293538", "code":-14003, "msg":"it is invlid json req."}}
+
+
+2019-05-09 09:45:28,868 - logger - INFO - recv exception: timed out
+
+2019-05-09 09:45:30,868 - logger - INFO - disconnected to 119.23.168.152:30086
+

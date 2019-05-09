@@ -1,0 +1,11 @@
+2019-04-28 19:41:34,632 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 19:41:34,789 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 19:41:36,884 - result - INFO - 用例    FAIL    获取用户账户信息，list账户信息错误  code: -22102 msg: 
+2019-04-28 19:41:38,930 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 19:41:40,993 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 19:41:43,039 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 19:41:45,104 - result - INFO - 用例    FAIL    删除家庭成员，户主删除自己  code: -16000 msg: cannot remove yourself cause you are the family owner
+2019-04-28 19:41:47,165 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-28 19:41:49,229 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-28 19:41:51,292 - result - INFO - 用例    PASS    删除家庭成员
+2019-04-28 19:41:53,355 - result - INFO - 用例    PASS    删除家庭

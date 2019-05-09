@@ -1,0 +1,8 @@
+2019-04-28 08:46:13,740 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-28 08:46:16,773 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 08:46:19,493 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-28 08:46:21,821 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-28 08:46:24,572 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-28 08:46:27,102 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-28 08:46:34,240 - result - INFO - 用例    FAIL    用户更新资料  time out
+2019-04-28 08:46:47,655 - result - INFO - 用例    PASS    获取指定用户的信息

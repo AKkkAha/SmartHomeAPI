@@ -1,0 +1,30 @@
+2019-04-28 11:49:12,125 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-28 11:49:14,220 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 11:49:16,331 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-28 11:49:18,424 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-28 11:49:20,487 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-28 11:49:22,785 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-28 11:49:25,082 - result - INFO - 用例    PASS    用户更新资料
+2019-04-28 11:49:27,209 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-28 11:49:27,381 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 11:49:29,506 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-28 11:49:31,740 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-28 11:49:33,897 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-28 11:49:36,101 - result - INFO - 用例    PASS    获取用户加入的家庭列表
+2019-04-28 11:49:38,351 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-04-28 11:49:40,493 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-04-28 11:49:42,556 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-04-28 11:49:44,588 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 11:49:46,651 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-28 11:49:48,887 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 11:49:50,966 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 11:49:53,029 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-28 11:49:55,279 - result - INFO - 用例    FAIL    获取用户账户信息  code: -22102 msg: 
+2019-04-28 11:49:57,372 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-28 11:49:59,467 - result - INFO - 用例    PASS    客户端退出登陆
+2019-04-28 11:50:01,608 - result - INFO - 用例    PASS    判断客户端是否在线
+2019-04-28 11:50:03,842 - result - INFO - 用例    FAIL    判断客户端是否在线，client_id错误  code: -1 msg: the client isn't online.
+2019-04-28 11:50:05,983 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-28 11:50:08,141 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-28 11:50:10,423 - result - INFO - 用例    PASS    删除家庭成员
+2019-04-28 11:50:12,690 - result - INFO - 用例    PASS    删除家庭

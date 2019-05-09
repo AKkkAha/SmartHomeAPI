@@ -1,0 +1,28 @@
+2019-04-28 10:56:54,188 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-28 10:56:56,345 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 10:56:58,517 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-28 10:57:00,767 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-28 10:57:02,846 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-28 10:57:04,940 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-28 10:57:09,086 - result - INFO - 用例    PASS    用户更新资料
+2019-04-28 10:57:11,227 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-28 10:57:11,338 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 10:57:13,463 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-28 10:57:15,573 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-28 10:57:17,651 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-28 10:57:19,841 - result - INFO - 用例    FAIL    获取用户加入的家庭列表    recv_msg is too long
+2019-04-28 10:57:21,950 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-04-28 10:57:24,059 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-04-28 10:57:26,138 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-04-28 10:57:28,249 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 10:57:30,358 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-28 10:57:32,500 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 10:57:34,578 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 10:57:36,732 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-28 10:57:38,936 - result - INFO - 用例    PASS    获取用户账户信息
+2019-04-28 10:57:41,009 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-28 10:57:43,227 - result - INFO - 用例    FAIL    获取品类的属性列表    recv_msg is too long
+2019-04-28 10:57:45,354 - result - INFO - 用例    FAIL    获取产品列表    recv_msg is too long
+2019-04-28 10:57:47,447 - result - INFO - 用例    FAIL    获取设备品类列表    recv_msg is too long
+2019-04-28 10:57:49,542 - result - INFO - 用例    PASS    获取产品的引导信息
+2019-04-28 10:57:51,730 - result - INFO - 用例    PASS    获取具体产品的属性

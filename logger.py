@@ -45,7 +45,7 @@ class logcls:
 
 class rstcls:
     _singleton = None
-    logger1=None
+    logger1 = None
 
     def __init__( self):
         pass

@@ -1,0 +1,82 @@
+2019-04-28 08:48:10,342 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-28 08:48:12,391 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 08:48:14,457 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-28 08:48:16,538 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-28 08:48:18,601 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-28 08:48:20,700 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-28 08:48:24,802 - result - INFO - 用例    PASS    用户更新资料
+2019-04-28 08:48:26,895 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-28 08:48:26,997 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 08:48:29,058 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-28 08:48:31,141 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-28 08:48:33,217 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-28 08:48:35,292 - result - INFO - 用例    FAIL    获取用户加入的家庭列表    recv_msg is too long
+2019-04-28 08:48:37,453 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-04-28 08:48:39,540 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-04-28 08:48:41,598 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-04-28 08:48:43,653 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 08:48:45,780 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-28 08:48:47,854 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 08:48:49,917 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 08:48:51,969 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-28 08:48:54,033 - result - INFO - 用例    PASS    获取用户账户信息
+2019-04-28 08:48:56,112 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-28 08:48:58,285 - result - INFO - 用例    PASS    APP密码登录
+2019-04-28 08:49:02,447 - result - INFO - 用例    PASS    用户修改密码
+2019-04-28 08:49:04,594 - result - INFO - 用例    PASS    创建家庭成员
+2019-04-28 08:49:06,701 - result - INFO - 用例    PASS    修改成员昵称
+2019-04-28 08:49:08,907 - result - INFO - 用例    PASS    用户退出加入家庭
+2019-04-28 08:49:11,081 - result - INFO - 用例    PASS    创建家庭成员
+2019-04-28 08:49:13,163 - result - INFO - 用例    FAIL    获取品类的属性列表    recv_msg is too long
+2019-04-28 08:49:15,239 - result - INFO - 用例    FAIL    获取产品列表    recv_msg is too long
+2019-04-28 08:49:17,305 - result - INFO - 用例    FAIL    获取设备品类列表    recv_msg is too long
+2019-04-28 08:49:19,368 - result - INFO - 用例    PASS    获取产品的引导信息
+2019-04-28 08:49:21,434 - result - INFO - 用例    PASS    获取具体产品的属性
+2019-04-28 08:49:23,529 - result - INFO - 用例    PASS    消息已读确认
+2019-04-28 08:49:25,684 - result - INFO - 用例    PASS    添加消息
+2019-04-28 08:49:27,766 - result - INFO - 用例    PASS    删除消息
+2019-04-28 08:49:29,829 - result - INFO - 用例    PASS    加载消息列表
+2019-04-28 08:49:31,898 - result - INFO - 用例    PASS    获取满足条件的消息总数
+2019-04-28 08:49:33,953 - result - INFO - 用例    PASS    修改消息
+2019-04-28 08:49:36,025 - result - INFO - 用例    PASS    添加房间
+2019-04-28 08:49:38,059 - result - INFO - 用例    PASS    获取房间列表
+2019-04-28 08:49:40,091 - result - INFO - 用例    PASS    添加快捷方式
+2019-04-28 08:49:42,125 - result - INFO - 用例    PASS    修改快捷方式位置
+2019-04-28 08:49:44,161 - result - INFO - 用例    PASS    全量更新快捷方式
+2019-04-28 08:49:46,197 - result - INFO - 用例    PASS    修改快捷方式
+2019-04-28 08:49:48,253 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-04-28 08:49:50,293 - result - INFO - 用例    PASS    更新快捷方式是否可见
+2019-04-28 08:49:52,374 - result - INFO - 用例    PASS    删除快捷方式
+2019-04-28 08:49:54,407 - result - INFO - 用例    PASS    修改房间信息
+2019-04-28 08:49:56,460 - result - INFO - 用例    PASS    全量刷新房间
+2019-04-28 08:49:58,503 - result - INFO - 用例    PASS    修改房间图标位置
+2019-04-28 08:50:00,536 - result - INFO - 用例    PASS    删除房间
+2019-04-28 08:50:02,821 - result - INFO - 用例    PASS    添加设备
+2019-04-28 08:50:04,987 - result - INFO - 用例    PASS    陌生设备第一次接入
+2019-04-28 08:50:07,029 - result - INFO - 用例    PASS    刷新设备
+2019-04-28 08:50:09,075 - result - INFO - 用例    PASS    获取设备信息
+2019-04-28 08:50:11,121 - result - INFO - 用例    PASS    按照家庭获取设备列表
+2019-04-28 08:50:13,151 - result - INFO - 用例    PASS    按照房间获取设备列表
+2019-04-28 08:50:15,198 - result - INFO - 用例    PASS    获取家庭设备品类列表
+2019-04-28 08:50:17,381 - result - INFO - 用例    PASS    获取设备状态列表
+2019-04-28 08:50:19,519 - result - INFO - 用例    PASS    全量刷新设备
+2019-04-28 08:50:21,558 - result - INFO - 用例    PASS    上报设备状态
+2019-04-28 08:50:23,588 - result - INFO - 用例    PASS    删除设备状态
+2019-04-28 08:50:25,628 - result - INFO - 用例    PASS    获取设备告警列表
+2019-04-28 08:50:27,664 - result - INFO - 用例    PASS    上报设备告警
+2019-04-28 08:50:29,711 - result - INFO - 用例    PASS    删除设备告警
+2019-04-28 08:50:31,796 - result - INFO - 用例    PASS    删除设备
+2019-04-28 08:50:33,842 - result - INFO - 用例    PASS    订阅消息推送
+2019-04-28 08:50:35,892 - result - INFO - 用例    PASS    去订阅消息推送
+2019-04-28 08:50:38,045 - result - INFO - 用例    PASS    客户端退出登陆
+2019-04-28 08:50:40,095 - result - INFO - 用例    PASS    判断客户端是否在线
+2019-04-28 08:50:42,286 - result - INFO - 用例    PASS    APP检查升级
+2019-04-28 08:50:44,335 - result - INFO - 用例    PASS    H5资源包检查升级
+2019-04-28 08:50:46,391 - result - INFO - 用例    PASS    路由器检查升级
+2019-04-28 08:50:48,482 - result - INFO - 用例    PASS    ios审核版本开关
+2019-04-28 08:50:50,572 - result - INFO - 用例    FAIL    APP检查升级，router_uuid错误  code: 0 msg: 
+2019-04-28 08:50:52,632 - result - INFO - 用例    FAIL    H5资源包检查升级，router_uuid错误  code: 0 msg: 
+2019-04-28 08:50:54,693 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-28 08:50:56,724 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-28 08:50:58,838 - result - INFO - 用例    PASS    删除家庭成员
+2019-04-28 08:51:00,907 - result - INFO - 用例    PASS    删除家庭

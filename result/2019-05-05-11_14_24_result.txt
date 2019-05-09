@@ -1,0 +1,91 @@
+2019-05-05 11:14:26,732 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-05-05 11:14:28,796 - result - INFO - 用例    PASS    APP自动登录
+2019-05-05 11:14:30,867 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-05-05 11:14:32,963 - result - INFO - 用例    PASS    检查用户是否存在
+2019-05-05 11:14:35,039 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-05-05 11:14:37,211 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-05-05 11:14:39,380 - result - INFO - 用例    PASS    用户更新资料
+2019-05-05 11:14:41,473 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-05-05 11:14:41,555 - result - INFO - 用例    PASS    创建家庭
+2019-05-05 11:14:43,602 - result - INFO - 用例    PASS    路由器校验登录
+2019-05-05 11:14:45,686 - result - INFO - 用例    PASS    验证路由器有效性
+2019-05-05 11:14:47,802 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-05-05 11:14:49,881 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-05-05 11:14:52,032 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-05-05 11:14:54,135 - result - INFO - 用例    PASS    获取用户账户信息
+2019-05-05 11:14:56,217 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-05-05 11:14:58,289 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-05-05 11:15:00,385 - result - INFO - 用例    PASS    获取成员信息列表
+2019-05-05 11:15:02,470 - result - INFO - 用例    PASS    获取用户申请码
+2019-05-05 11:15:09,538 - result - INFO - 用例    FAIL    获取用户加入的家庭列表  time out
+2019-05-05 11:15:11,621 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-05-05 11:15:13,700 - result - INFO - 用例    PASS    转让户主
+2019-05-05 11:15:15,782 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-05-05 11:15:17,997 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-05-05 11:15:20,109 - result - INFO - 用例    PASS    添加房间
+2019-05-05 11:15:22,200 - result - INFO - 用例    PASS    获取房间列表
+2019-05-05 11:15:24,276 - result - INFO - 用例    PASS    添加快捷方式
+2019-05-05 11:15:26,374 - result - INFO - 用例    PASS    修改快捷方式位置
+2019-05-05 11:15:28,433 - result - INFO - 用例    PASS    全量更新快捷方式
+2019-05-05 11:15:30,650 - result - INFO - 用例    PASS    修改快捷方式
+2019-05-05 11:15:32,729 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-05-05 11:15:34,792 - result - INFO - 用例    PASS    更新快捷方式是否可见
+2019-05-05 11:15:36,868 - result - INFO - 用例    FAIL    修改房间信息  code: -16039 msg: user not in this family
+2019-05-05 11:15:38,947 - result - INFO - 用例    PASS    全量刷新房间
+2019-05-05 11:15:41,026 - result - INFO - 用例    PASS    修改房间图标位置
+2019-05-05 11:15:43,221 - result - INFO - 用例    PASS    删除快捷方式
+2019-05-05 11:15:45,275 - result - INFO - 用例    PASS    删除房间
+2019-05-05 11:15:47,367 - result - INFO - 用例    PASS    添加设备
+2019-05-05 11:15:49,434 - result - INFO - 用例    PASS    陌生设备第一次接入
+2019-05-05 11:15:51,489 - result - INFO - 用例    PASS    刷新设备
+2019-05-05 11:15:53,556 - result - INFO - 用例    PASS    获取设备信息
+2019-05-05 11:15:55,661 - result - INFO - 用例    PASS    按照家庭获取设备列表
+2019-05-05 11:15:57,803 - result - INFO - 用例    PASS    按照房间获取设备列表
+2019-05-05 11:15:59,874 - result - INFO - 用例    PASS    获取家庭设备品类列表
+2019-05-05 11:16:01,957 - result - INFO - 用例    PASS    获取设备状态列表
+2019-05-05 11:16:04,029 - result - INFO - 用例    PASS    全量刷新设备
+2019-05-05 11:16:06,095 - result - INFO - 用例    PASS    上报设备状态
+2019-05-05 11:16:08,154 - result - INFO - 用例    PASS    删除设备状态
+2019-05-05 11:16:10,246 - result - INFO - 用例    PASS    获取设备告警列表
+2019-05-05 11:16:12,338 - result - INFO - 用例    PASS    上报设备告警
+2019-05-05 11:16:14,411 - result - INFO - 用例    PASS    删除设备告警
+2019-05-05 11:16:16,473 - result - INFO - 用例    PASS    删除设备
+2019-05-05 11:16:18,529 - result - INFO - 用例    PASS    订阅消息推送
+2019-05-05 11:16:20,638 - result - INFO - 用例    PASS    去订阅消息推送
+2019-05-05 11:16:22,828 - result - INFO - 用例    PASS    消息已读确认
+2019-05-05 11:16:24,913 - result - INFO - 用例    PASS    添加消息
+2019-05-05 11:16:26,992 - result - INFO - 用例    PASS    删除消息
+2019-05-05 11:16:29,043 - result - INFO - 用例    PASS    加载消息列表
+2019-05-05 11:16:31,154 - result - INFO - 用例    FAIL    获取满足条件的消息总数  code: -1860567104 msg: success
+2019-05-05 11:16:33,262 - result - INFO - 用例    PASS    修改消息
+2019-05-05 11:16:40,523 - result - INFO - 用例    FAIL    获取品类的属性列表  time out
+2019-05-05 11:16:47,707 - result - INFO - 用例    FAIL    获取产品列表  time out
+2019-05-05 11:16:55,056 - result - INFO - 用例    FAIL    获取设备品类列表  time out
+2019-05-05 11:16:57,173 - result - INFO - 用例    PASS    获取产品的引导信息
+2019-05-05 11:16:59,249 - result - INFO - 用例    PASS    获取具体产品的属性
+2019-05-05 11:17:06,436 - result - INFO - 用例    FAIL    获取设备故障配置列表  time out
+2019-05-05 11:17:08,513 - result - INFO - 用例    PASS    添加方式设置信息查询
+2019-05-05 11:17:10,595 - result - INFO - 用例    PASS    获取渠道商列表
+2019-05-05 11:17:12,663 - result - INFO - 用例    PASS    获取事件配置列表
+2019-05-05 11:17:14,750 - result - INFO - 用例    PASS    获取品牌licence列表
+2019-05-05 11:17:17,019 - result - INFO - 用例    PASS    获取墨迹天气服务
+2019-05-05 11:17:19,114 - result - INFO - 用例    PASS    通过二维码链接获取产品信息
+2019-05-05 11:17:21,187 - result - INFO - 用例    PASS    通过渠道设备的固件信息获取产品信息
+2019-05-05 11:17:23,279 - result - INFO - 用例    PASS    APP密码登录
+2019-05-05 11:17:25,421 - result - INFO - 用例    PASS    用户修改密码
+2019-05-05 11:17:27,750 - result - INFO - 用例    PASS    创建家庭成员
+2019-05-05 11:17:29,989 - result - INFO - 用例    PASS    修改成员昵称
+2019-05-05 11:17:32,144 - result - INFO - 用例    PASS    用户退出加入家庭
+2019-05-05 11:17:34,325 - result - INFO - 用例    PASS    创建家庭成员
+2019-05-05 11:17:36,433 - result - INFO - 用例    PASS    客户端退出登陆
+2019-05-05 11:17:38,532 - result - INFO - 用例    PASS    判断客户端是否在线
+2019-05-05 11:17:40,586 - result - INFO - 用例    PASS    APP检查升级
+2019-05-05 11:17:42,684 - result - INFO - 用例    PASS    H5资源包检查升级
+2019-05-05 11:17:44,733 - result - INFO - 用例    PASS    路由器检查升级
+2019-05-05 11:17:46,828 - result - INFO - 用例    PASS    ios审核版本开关
+2019-05-05 11:17:48,921 - result - INFO - 用例    PASS    ios审核版本开关，版本缺失
+2019-05-05 11:17:51,065 - result - INFO - 用例    PASS    路由器检查升级，router_id错误
+2019-05-05 11:17:53,190 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-05-05 11:17:55,293 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-05-05 11:17:57,394 - result - INFO - 用例    PASS    删除家庭成员
+2019-05-05 11:17:59,532 - result - INFO - 用例    PASS    删除家庭

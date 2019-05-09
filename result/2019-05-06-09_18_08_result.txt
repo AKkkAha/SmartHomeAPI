@@ -1,0 +1,24 @@
+2019-05-06 09:18:11,510 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
+2019-05-06 09:18:13,555 - result - INFO - 用例    PASS    app验证码登陆，phone缺失
+2019-05-06 09:18:15,619 - result - INFO - 用例    PASS    获取手机注册验证码，type错误
+2019-05-06 09:18:17,680 - result - INFO - 用例    PASS    校验手机验证码，手机号已注册
+2019-05-06 09:18:19,742 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-05-06 09:18:21,795 - result - INFO - 用例    PASS    APP自动登录
+2019-05-06 09:18:23,884 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-05-06 09:18:25,953 - result - INFO - 用例    PASS    检查用户是否存在
+2019-05-06 09:18:28,025 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-05-06 09:18:30,111 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-05-06 09:18:32,246 - result - INFO - 用例    PASS    用户更新资料
+2019-05-06 09:18:34,338 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-05-06 09:18:34,415 - result - INFO - 用例    PASS    创建家庭
+2019-05-06 09:18:36,460 - result - INFO - 用例    PASS    路由器校验登录，uuid缺失
+2019-05-06 09:18:38,519 - result - INFO - 用例    PASS    验证路由器有效性，uuid错误
+2019-05-06 09:18:40,578 - result - INFO - 用例    PASS    app调用绑定路由器，router_pwd错误
+2019-05-06 09:18:42,634 - result - INFO - 用例    FAIL    router调用绑定路由器，bind_time错误  code: 0 msg: OK
+2019-05-06 09:18:44,700 - result - INFO - 用例    PASS    获取用户账户信息，list账户信息缺失
+2019-05-06 09:18:46,757 - result - INFO - 用例    PASS    获取路由器信息，encry错误
+2019-05-06 09:18:48,835 - result - INFO - 用例    PASS    MDP家庭路由转发，msg_type错误
+2019-05-06 09:18:50,957 - result - INFO - 用例    PASS    路由器校验登录
+2019-05-06 09:18:53,049 - result - INFO - 用例    PASS    验证路由器有效性
+2019-05-06 09:18:55,108 - result - INFO - 用例    FAIL    app调用绑定路由器  code: -16028 msg: family have bind other router
+2019-05-06 09:18:57,157 - result - INFO - 用例    PASS    router调用绑定路由器

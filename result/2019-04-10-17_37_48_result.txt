@@ -1,0 +1,65 @@
+2019-04-10 17:37:50,862 - result - INFO - 用例    PASS    APP自动登录
+2019-04-10 17:37:53,051 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
+2019-04-10 17:37:55,239 - result - INFO - 用例    PASS    app验证码登陆_反例
+2019-04-10 17:37:57,397 - result - INFO - 用例    PASS    
+2019-04-10 17:37:59,503 - result - INFO - 用例    PASS    
+2019-04-10 17:37:59,612 - result - INFO - 用例    PASS    
+2019-04-10 17:38:01,690 - result - INFO - 用例    PASS    
+2019-04-10 17:38:03,815 - result - INFO - 用例    PASS    
+2019-04-10 17:38:05,943 - result - INFO - 用例    FAIL    创建家庭成员  code: -16013 msg: family owner cannot invite himself to join
+2019-04-10 17:38:08,099 - result - INFO - 用例    PASS    
+2019-04-10 17:38:10,236 - result - INFO - 用例    PASS    
+2019-04-10 17:38:12,349 - result - INFO - 用例    PASS    创建家庭_反例
+2019-04-10 17:38:14,424 - result - INFO - 用例    PASS    
+2019-04-10 17:38:16,490 - result - INFO - 用例    PASS    
+2019-04-10 17:38:18,572 - result - INFO - 用例    FAIL    创建家庭成员_反例  code: -16013 msg: family owner cannot invite himself to join
+2019-04-10 17:38:25,653 - result - INFO - 用例    FAIL    获取用户申请码_反例  time out
+2019-04-10 17:38:32,782 - result - INFO - 用例    FAIL    获取用户加入的家庭列表_反例  time out
+2019-04-10 17:38:34,864 - result - INFO - 用例    PASS    路由器校验登录_反例
+2019-04-10 17:38:37,006 - result - INFO - 用例    PASS    
+2019-04-10 17:38:39,086 - result - INFO - 用例    PASS    
+2019-04-10 17:38:41,148 - result - INFO - 用例    FAIL    router调用绑定路由器_反例  code: -15030 msg: router have been bind to other family
+2019-04-10 17:38:48,256 - result - INFO - 用例    FAIL    获取路由器信息_反例  time out
+2019-04-10 17:38:50,382 - result - INFO - 用例    PASS    
+2019-04-10 17:38:52,440 - result - INFO - 用例    PASS    
+2019-04-10 17:38:54,523 - result - INFO - 用例    PASS    
+2019-04-10 17:38:56,651 - result - INFO - 用例    PASS    
+2019-04-10 17:38:58,700 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-10 17:39:00,782 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-10 17:39:03,003 - result - INFO - 用例    PASS    
+2019-04-10 17:39:05,069 - result - INFO - 用例    PASS    
+2019-04-10 17:39:07,118 - result - INFO - 用例    PASS    
+2019-04-10 17:39:09,200 - result - INFO - 用例    PASS    
+2019-04-10 17:39:11,262 - result - INFO - 用例    PASS    
+2019-04-10 17:39:13,345 - result - INFO - 用例    PASS    
+2019-04-10 17:39:15,519 - result - INFO - 用例    FAIL    获取房间列表，user_id错误  code: -15004 msg: Permission denied
+2019-04-10 17:39:17,661 - result - INFO - 用例    PASS    
+2019-04-10 17:39:19,727 - result - INFO - 用例    PASS    
+2019-04-10 17:39:21,809 - result - INFO - 用例    PASS    
+2019-04-10 17:39:23,888 - result - INFO - 用例    PASS    
+2019-04-10 17:39:25,947 - result - INFO - 用例    PASS    
+2019-04-10 17:39:28,092 - result - INFO - 用例    PASS    
+2019-04-10 17:39:30,250 - result - INFO - 用例    PASS    
+2019-04-10 17:39:32,316 - result - INFO - 用例    PASS    
+2019-04-10 17:39:34,378 - result - INFO - 用例    PASS    
+2019-04-10 17:39:36,443 - result - INFO - 用例    PASS    
+2019-04-10 17:39:38,519 - result - INFO - 用例    PASS    
+2019-04-10 17:39:40,599 - result - INFO - 用例    PASS    
+2019-04-10 17:39:42,816 - result - INFO - 用例    PASS    
+2019-04-10 17:39:44,881 - result - INFO - 用例    PASS    
+2019-04-10 17:39:46,963 - result - INFO - 用例    PASS    
+2019-04-10 17:39:49,042 - result - INFO - 用例    PASS    
+2019-04-10 17:39:51,104 - result - INFO - 用例    PASS    
+2019-04-10 17:39:53,171 - result - INFO - 用例    PASS    
+2019-04-10 17:39:55,359 - result - INFO - 用例    PASS    
+2019-04-10 17:39:57,437 - result - INFO - 用例    PASS    
+2019-04-10 17:39:59,546 - result - INFO - 用例    PASS    APP检查升级_反例
+2019-04-10 17:40:01,638 - result - INFO - 用例    PASS    H5资源包检查升级_反例
+2019-04-10 17:40:03,717 - result - INFO - 用例    FAIL    通知app版本更新  code: -8003 msg: invalid method.
+2019-04-10 17:40:05,828 - result - INFO - 用例    FAIL    通知rounter版本更新  code: -8003 msg: invalid method.
+2019-04-10 17:40:07,908 - result - INFO - 用例    PASS    
+2019-04-10 17:40:09,970 - result - INFO - 用例    FAIL    router调用解绑路由器_反例  code: -15005 msg: family have bind other router
+2019-04-10 17:40:12,078 - result - INFO - 用例    PASS    
+2019-04-10 17:40:14,184 - result - INFO - 用例    PASS    
+2019-04-10 17:40:16,234 - result - INFO - 用例    PASS    
+2019-04-10 17:40:18,345 - result - INFO - 用例    PASS    

@@ -1,0 +1,36 @@
+2019-04-25 10:21:46,131 - result - INFO - 用例    PASS    APP自动登录
+2019-04-25 10:21:48,210 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-25 10:21:50,368 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-25 10:21:52,509 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-25 10:21:54,586 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-25 10:21:56,697 - result - INFO - 用例    PASS    用户更新资料
+2019-04-25 10:21:58,776 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-25 10:21:58,885 - result - INFO - 用例    PASS    创建家庭
+2019-04-25 10:22:00,980 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-25 10:22:03,059 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-25 10:22:05,214 - result - INFO - 用例    FAIL    创建家庭成员  code: -16013 msg: family owner cannot invite himself to join
+2019-04-25 10:22:07,282 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-25 10:22:09,392 - result - INFO - 用例    PASS    获取用户加入的家庭列表
+2019-04-25 10:22:11,440 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-25 10:22:13,549 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-25 10:22:15,628 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-25 10:22:17,786 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-25 10:22:19,832 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-25 10:22:21,897 - result - INFO - 用例    PASS    获取用户账户信息
+2019-04-25 10:22:23,944 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-25 10:22:25,990 - result - INFO - 用例    PASS    添加房间
+2019-04-25 10:22:28,042 - result - INFO - 用例    PASS    获取房间列表
+2019-04-25 10:22:30,105 - result - INFO - 用例    PASS    dm_add_shortcut【添加快捷方式】
+2019-04-25 10:22:32,153 - result - INFO - 用例    PASS    dm_sort_shortcut【修改快捷方式位置】
+2019-04-25 10:22:34,200 - result - INFO - 用例    PASS    dm_update_shortcut_new【全量更新快捷方式】
+2019-04-25 10:22:36,233 - result - INFO - 用例    PASS    dm_update_shortcut【修改快捷方式】
+2019-04-25 10:22:38,303 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-04-25 10:22:40,368 - result - INFO - 用例    FAIL    dm_update_shortcut_visible【更新快捷方式是否可见】  code: -15004 msg: Permission denied
+2019-04-25 10:22:42,446 - result - INFO - 用例    PASS    dm_del_shortcut【删除快捷方式】
+2019-04-25 10:22:44,525 - result - INFO - 用例    PASS    修改房间信息
+2019-04-25 10:22:46,588 - result - INFO - 用例    PASS    dm_update_room_new【全量刷新房间】
+2019-04-25 10:22:48,667 - result - INFO - 用例    PASS    dm_update_room_order【修改房间图标位置】
+2019-04-25 10:22:50,713 - result - INFO - 用例    PASS    删除房间
+2019-04-25 10:22:52,792 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-25 10:22:54,855 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-25 10:22:56,980 - result - INFO - 用例    PASS    删除家庭

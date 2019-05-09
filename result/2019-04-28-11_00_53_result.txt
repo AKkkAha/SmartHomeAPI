@@ -1,0 +1,44 @@
+2019-04-28 11:00:55,806 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-28 11:00:57,884 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 11:00:59,948 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-28 11:01:02,042 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-28 11:01:04,183 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-28 11:01:06,278 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-28 11:01:10,450 - result - INFO - 用例    PASS    用户更新资料
+2019-04-28 11:01:12,530 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-28 11:01:12,733 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 11:01:14,796 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-28 11:01:16,891 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-28 11:01:18,953 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-28 11:01:21,078 - result - INFO - 用例    FAIL    获取用户加入的家庭列表    recv_msg is too long
+2019-04-28 11:01:23,187 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-04-28 11:01:25,328 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-04-28 11:01:27,424 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-04-28 11:01:29,486 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 11:01:31,562 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-28 11:01:33,627 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 11:01:35,674 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 11:01:37,769 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-28 11:01:39,832 - result - INFO - 用例    PASS    获取用户账户信息
+2019-04-28 11:01:41,894 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-28 11:01:43,989 - result - INFO - 用例    FAIL    获取品类的属性列表    recv_msg is too long
+2019-04-28 11:01:46,098 - result - INFO - 用例    FAIL    获取产品列表    recv_msg is too long
+2019-04-28 11:01:48,161 - result - INFO - 用例    FAIL    获取设备品类列表    recv_msg is too long
+2019-04-28 11:01:50,335 - result - INFO - 用例    PASS    获取产品的引导信息
+2019-04-28 11:01:52,430 - result - INFO - 用例    PASS    获取具体产品的属性
+2019-04-28 11:01:54,523 - result - INFO - 用例    FAIL    获取设备故障配置列表    recv_msg is too long
+2019-04-28 11:01:56,618 - result - INFO - 用例    PASS    添加方式设置信息查询
+2019-04-28 11:01:58,697 - result - INFO - 用例    PASS    获取渠道商列表
+2019-04-28 11:02:00,775 - result - INFO - 用例    PASS    获取事件配置列表
+2019-04-28 11:02:03,009 - result - INFO - 用例    PASS    获取品牌licence列表
+2019-04-28 11:02:05,308 - result - INFO - 用例    PASS    获取墨迹天气服务
+2019-04-28 11:02:07,415 - result - INFO - 用例    PASS    通过二维码链接获取产品信息
+2019-04-28 11:02:09,542 - result - INFO - 用例    PASS    获取品类的属性列表，空列表
+2019-04-28 11:02:11,653 - result - INFO - 用例    PASS    获取产品列表，品类错误
+2019-04-28 11:02:13,746 - result - INFO - 用例    FAIL    获取设备品类列表，更新时间错误    recv_msg is too long
+2019-04-28 11:02:15,982 - result - INFO - 用例    PASS    获取产品的引导信息，product_id错误
+2019-04-28 11:02:18,045 - result - INFO - 用例    PASS    获取具体产品的属性，product_id错误
+2019-04-28 11:02:20,171 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-28 11:02:22,217 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-28 11:02:24,296 - result - INFO - 用例    PASS    删除家庭成员
+2019-04-28 11:02:26,374 - result - INFO - 用例    PASS    删除家庭

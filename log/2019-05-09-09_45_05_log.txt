@@ -1,0 +1,5 @@
+2019-05-09 09:45:05,862 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-05-09 09:45:05,862 - logger - INFO - ----------send msg----------: "{\"content\": {\"timestamp\": 1557366305, \"params\": {\"os_version\": \"android4.3\", \"secret\": \"e10adc3949ba59abbe56e057f20f883e\", \"hardware_version\": \"Huawei\", \"phone\": \"18200183087\", \"pwd\": \"123456\", \"os_type\": \"Android\", \"app_version\": \"v0.5\"}, \"method\": \"um_register_user\", \"req_id\": 123}, \"encry\": \"false\", \"uuid\": \"18926592010\"}\n"
+
+

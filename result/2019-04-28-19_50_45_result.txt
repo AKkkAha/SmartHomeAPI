@@ -1,0 +1,21 @@
+2019-04-28 19:50:47,272 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 19:50:47,365 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 19:50:49,444 - result - INFO - 用例    FAIL    获取用户账户信息，list账户信息错误  code: -22102 msg: 
+2019-04-28 19:50:51,492 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 19:50:53,555 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 19:50:55,602 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 19:50:57,664 - result - INFO - 用例    PASS    APP密码登录
+2019-04-28 19:50:59,900 - result - INFO - 用例    PASS    用户修改密码    'code'
+2019-04-28 19:51:02,072 - result - INFO - 用例    PASS    创建家庭成员
+2019-04-28 19:51:04,151 - result - INFO - 用例    PASS    修改成员昵称
+2019-04-28 19:51:06,308 - result - INFO - 用例    PASS    用户退出加入家庭
+2019-04-28 19:51:08,510 - result - INFO - 用例    PASS    创建家庭成员
+2019-04-28 19:51:10,589 - result - INFO - 用例    FAIL    APP密码登录，密码错误  code: 0 msg: the client is auth ago.
+2019-04-28 19:51:12,653 - result - INFO - 用例    FAIL    用户修改密码，旧密码错误  code: -17027 msg: old password not correct
+2019-04-28 19:51:14,809 - result - INFO - 用例    FAIL    创建家庭成员，邀请码错误  code: -16030 msg: 2019/04/28 19:51:08
+2019-04-28 19:51:16,920 - result - INFO - 用例    FAIL    修改成员昵称，target_user_id错误  code: -16020 msg: only family owner or himself can update member info
+2019-04-28 19:51:19,013 - result - INFO - 用例    FAIL    用户退出加入家庭，family_id错误  code: -16027 msg: family id is not exists
+2019-04-28 19:51:21,124 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-28 19:51:23,194 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-28 19:51:25,296 - result - INFO - 用例    PASS    删除家庭成员
+2019-04-28 19:51:27,394 - result - INFO - 用例    PASS    删除家庭

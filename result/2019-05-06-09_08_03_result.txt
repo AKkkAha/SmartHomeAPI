@@ -1,0 +1,152 @@
+2019-05-06 09:08:05,924 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
+2019-05-06 09:08:07,967 - result - INFO - 用例    PASS    app验证码登陆，phone缺失
+2019-05-06 09:08:10,046 - result - INFO - 用例    PASS    获取手机注册验证码，type错误
+2019-05-06 09:08:12,256 - result - INFO - 用例    PASS    校验手机验证码，手机号已注册
+2019-05-06 09:08:14,348 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-05-06 09:08:16,394 - result - INFO - 用例    PASS    APP自动登录
+2019-05-06 09:08:18,496 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-05-06 09:08:20,585 - result - INFO - 用例    PASS    检查用户是否存在
+2019-05-06 09:08:22,657 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-05-06 09:08:24,732 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-05-06 09:08:28,894 - result - INFO - 用例    PASS    用户更新资料
+2019-05-06 09:08:30,970 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-05-06 09:08:31,089 - result - INFO - 用例    PASS    创建家庭
+2019-05-06 09:08:33,157 - result - INFO - 用例    PASS    路由器校验登录，uuid缺失
+2019-05-06 09:08:35,236 - result - INFO - 用例    PASS    验证路由器有效性，uuid错误
+2019-05-06 09:08:37,479 - result - INFO - 用例    PASS    app调用绑定路由器，router_pwd错误
+2019-05-06 09:08:39,579 - result - INFO - 用例    FAIL    router调用绑定路由器，bind_time错误  code: 0 msg: OK
+2019-05-06 09:08:41,645 - result - INFO - 用例    PASS    获取用户账户信息，list账户信息缺失
+2019-05-06 09:08:43,723 - result - INFO - 用例    PASS    获取路由器信息，encry错误
+2019-05-06 09:08:45,802 - result - INFO - 用例    PASS    MDP家庭路由转发，msg_type错误
+2019-05-06 09:08:47,852 - result - INFO - 用例    PASS    路由器校验登录
+2019-05-06 09:08:49,921 - result - INFO - 用例    PASS    验证路由器有效性
+2019-05-06 09:08:52,219 - result - INFO - 用例    FAIL    app调用绑定路由器  code: -16028 msg: family have bind other router
+2019-05-06 09:08:54,273 - result - INFO - 用例    PASS    router调用绑定路由器
+2019-05-06 09:08:56,339 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-05-06 09:08:58,424 - result - INFO - 用例    PASS    获取用户账户信息
+2019-05-06 09:09:00,496 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-05-06 09:09:02,561 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-05-06 09:09:04,631 - result - INFO - 用例    PASS    获取成员信息列表
+2019-05-06 09:09:06,763 - result - INFO - 用例    PASS    获取用户申请码
+2019-05-06 09:09:13,803 - result - INFO - 用例    FAIL    获取用户加入的家庭列表  time out
+2019-05-06 09:09:15,871 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-05-06 09:09:18,028 - result - INFO - 用例    PASS    转让户主
+2019-05-06 09:09:20,094 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-05-06 09:09:22,158 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-05-06 09:09:24,266 - result - INFO - 用例    PASS    创建家庭，家庭名称非法
+2019-05-06 09:09:26,328 - result - INFO - 用例    PASS    更新家庭基本信息，family_id错误
+2019-05-06 09:09:28,395 - result - INFO - 用例    PASS    获取成员信息列表，family_id错误
+2019-05-06 09:09:30,545 - result - INFO - 用例    PASS    创建家庭成员，family_id错误
+2019-05-06 09:09:32,683 - result - INFO - 用例    PASS    获取用户申请码，family_id错误
+2019-05-06 09:09:34,766 - result - INFO - 用例    PASS    获取用户加入的家庭列表，timestamp错误
+2019-05-06 09:09:36,828 - result - INFO - 用例    FAIL    添加房间  code: -15004 msg: Permission denied
+2019-05-06 09:09:38,884 - result - INFO - 用例    FAIL    获取房间列表  code: -15004 msg: Permission denied
+2019-05-06 09:09:40,937 - result - INFO - 用例    FAIL    添加快捷方式  code: -15004 msg: Permission denied
+2019-05-06 09:09:43,002 - result - INFO - 用例    FAIL    修改快捷方式位置  code: -15004 msg: Permission denied
+2019-05-06 09:09:45,229 - result - INFO - 用例    FAIL    全量更新快捷方式  code: -15004 msg: Permission denied
+2019-05-06 09:09:47,273 - result - INFO - 用例    FAIL    修改快捷方式  code: -15004 msg: Permission denied
+2019-05-06 09:09:49,335 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-05-06 09:09:51,394 - result - INFO - 用例    FAIL    更新快捷方式是否可见  code: -15004 msg: Permission denied
+2019-05-06 09:09:53,467 - result - INFO - 用例    FAIL    修改房间信息  code: -15004 msg: Permission denied
+2019-05-06 09:09:55,512 - result - INFO - 用例    FAIL    全量刷新房间  code: -15004 msg: Permission denied
+2019-05-06 09:09:57,657 - result - INFO - 用例    PASS    修改房间图标位置
+2019-05-06 09:09:59,828 - result - INFO - 用例    FAIL    添加快捷方式，shortcut_id已存在  code: -15004 msg: Permission denied
+2019-05-06 09:10:01,892 - result - INFO - 用例    PASS    修改快捷方式位置，list错误
+2019-05-06 09:10:03,956 - result - INFO - 用例    PASS    全量更新快捷方式，family_id错误
+2019-05-06 09:10:06,003 - result - INFO - 用例    PASS    修改快捷方式，room_id缺失
+2019-05-06 09:10:08,059 - result - INFO - 用例    PASS    更新快捷方式是否可见，app_visible缺失
+2019-05-06 09:10:10,137 - result - INFO - 用例    PASS    删除快捷方式，shortcut过长
+2019-05-06 09:10:12,213 - result - INFO - 用例    PASS    修改房间信息，room_name错误
+2019-05-06 09:10:14,253 - result - INFO - 用例    FAIL    全量刷新房间，user_id错误  code: -15004 msg: Permission denied
+2019-05-06 09:10:16,299 - result - INFO - 用例    PASS    修改房间图标位置，family_id错误
+2019-05-06 09:10:18,354 - result - INFO - 用例    PASS    添加房间，无family_id
+2019-05-06 09:10:20,401 - result - INFO - 用例    FAIL    获取房间列表，user_id错误  code: 0 msg: OK
+2019-05-06 09:10:22,463 - result - INFO - 用例    PASS    获取快捷方式列表，room_id错误
+2019-05-06 09:10:24,631 - result - INFO - 用例    PASS    删除房间，list错误
+2019-05-06 09:10:26,730 - result - INFO - 用例    FAIL    删除快捷方式  code: -15004 msg: Permission denied
+2019-05-06 09:10:28,786 - result - INFO - 用例    FAIL    删除房间  code: -15004 msg: Permission denied
+2019-05-06 09:10:30,831 - result - INFO - 用例    FAIL    添加设备  code: -15004 msg: Permission denied
+2019-05-06 09:10:32,901 - result - INFO - 用例    PASS    陌生设备第一次接入
+2019-05-06 09:10:34,954 - result - INFO - 用例    FAIL    刷新设备  code: -15004 msg: Permission denied
+2019-05-06 09:10:37,115 - result - INFO - 用例    FAIL    获取设备信息  code: -15009 msg: device id is not exists
+2019-05-06 09:10:39,207 - result - INFO - 用例    FAIL    按照家庭获取设备列表  code: -15004 msg: Permission denied
+2019-05-06 09:10:41,259 - result - INFO - 用例    FAIL    按照房间获取设备列表  code: -15004 msg: Permission denied
+2019-05-06 09:10:43,365 - result - INFO - 用例    FAIL    获取家庭设备品类列表  code: -15004 msg: Permission denied
+2019-05-06 09:10:45,447 - result - INFO - 用例    PASS    获取设备状态列表
+2019-05-06 09:10:47,500 - result - INFO - 用例    FAIL    全量刷新设备  code: -15004 msg: Permission denied
+2019-05-06 09:10:49,566 - result - INFO - 用例    PASS    上报设备状态
+2019-05-06 09:10:51,752 - result - INFO - 用例    PASS    删除设备状态
+2019-05-06 09:10:53,808 - result - INFO - 用例    PASS    获取设备告警列表
+2019-05-06 09:10:55,869 - result - INFO - 用例    PASS    上报设备告警
+2019-05-06 09:10:57,947 - result - INFO - 用例    PASS    删除设备告警
+2019-05-06 09:11:00,023 - result - INFO - 用例    FAIL    删除设备  code: -15004 msg: Permission denied
+2019-05-06 09:11:02,096 - result - INFO - 用例    PASS    订阅消息推送
+2019-05-06 09:11:04,180 - result - INFO - 用例    PASS    去订阅消息推送
+2019-05-06 09:11:06,288 - result - INFO - 用例    PASS    添加设备，device_uuid错误
+2019-05-06 09:11:08,328 - result - INFO - 用例    PASS    陌生设备第一次接入，device_name缺失
+2019-05-06 09:11:10,401 - result - INFO - 用例    PASS    刷新设备，device_uuid错误
+2019-05-06 09:11:12,464 - result - INFO - 用例    PASS    获取设备信息，device_id错误
+2019-05-06 09:11:14,515 - result - INFO - 用例    PASS    按照家庭获取设备列表，family_id错误
+2019-05-06 09:11:16,571 - result - INFO - 用例    PASS    全量刷新设备，bussiness_user_id错误
+2019-05-06 09:11:18,661 - result - INFO - 用例    PASS    上报设备状态，family_id缺失
+2019-05-06 09:11:20,742 - result - INFO - 用例    PASS    删除设备状态，device_category_id缺失
+2019-05-06 09:11:22,789 - result - INFO - 用例    PASS    获取设备告警列表，status错误
+2019-05-06 09:11:24,848 - result - INFO - 用例    PASS    上报设备告警，title错误
+2019-05-06 09:11:26,907 - result - INFO - 用例    PASS    删除设备告警，del_time缺失
+2019-05-06 09:11:28,989 - result - INFO - 用例    PASS    按照房间获取设备列表，device_category_id错误
+2019-05-06 09:11:31,105 - result - INFO - 用例    PASS    获取家庭设备品类列表，family_id错误
+2019-05-06 09:11:33,187 - result - INFO - 用例    PASS    获取设备状态列表，device_id错误
+2019-05-06 09:11:35,252 - result - INFO - 用例    PASS    删除设备，method错误
+2019-05-06 09:11:37,344 - result - INFO - 用例    PASS    订阅消息推送，app_uuid缺失
+2019-05-06 09:11:39,400 - result - INFO - 用例    PASS    去订阅消息推送，family_id错误
+2019-05-06 09:11:41,467 - result - INFO - 用例    PASS    消息已读确认
+2019-05-06 09:11:43,589 - result - INFO - 用例    PASS    添加消息
+2019-05-06 09:11:45,684 - result - INFO - 用例    PASS    删除消息
+2019-05-06 09:11:47,769 - result - INFO - 用例    PASS    加载消息列表
+2019-05-06 09:11:49,838 - result - INFO - 用例    PASS    获取满足条件的消息总数
+2019-05-06 09:11:51,911 - result - INFO - 用例    PASS    修改消息
+2019-05-06 09:11:54,006 - result - INFO - 用例    PASS    添加消息，target_type错误
+2019-05-06 09:11:56,073 - result - INFO - 用例    PASS    加载消息列表，msg_status错误
+2019-05-06 09:11:58,198 - result - INFO - 用例    PASS    获取满足条件的消息总数，user_id缺失
+2019-05-06 09:12:00,282 - result - INFO - 用例    PASS    修改消息，msg_id错误
+2019-05-06 09:12:07,474 - result - INFO - 用例    FAIL    获取品类的属性列表  time out
+2019-05-06 09:12:14,663 - result - INFO - 用例    FAIL    获取产品列表  time out
+2019-05-06 09:12:21,844 - result - INFO - 用例    FAIL    获取设备品类列表  time out
+2019-05-06 09:12:23,957 - result - INFO - 用例    PASS    获取产品的引导信息
+2019-05-06 09:12:26,151 - result - INFO - 用例    PASS    获取具体产品的属性
+2019-05-06 09:12:33,267 - result - INFO - 用例    FAIL    获取设备故障配置列表  time out
+2019-05-06 09:12:35,351 - result - INFO - 用例    PASS    添加方式设置信息查询
+2019-05-06 09:12:37,428 - result - INFO - 用例    PASS    获取渠道商列表
+2019-05-06 09:12:39,526 - result - INFO - 用例    PASS    获取事件配置列表
+2019-05-06 09:12:41,605 - result - INFO - 用例    PASS    获取品牌licence列表
+2019-05-06 09:12:43,890 - result - INFO - 用例    PASS    获取墨迹天气服务
+2019-05-06 09:12:45,974 - result - INFO - 用例    PASS    通过二维码链接获取产品信息
+2019-05-06 09:12:48,062 - result - INFO - 用例    PASS    通过渠道设备的固件信息获取产品信息
+2019-05-06 09:12:50,140 - result - INFO - 用例    PASS    APP密码登录
+2019-05-06 09:12:54,299 - result - INFO - 用例    PASS    用户修改密码
+2019-05-06 09:12:56,548 - result - INFO - 用例    PASS    创建家庭成员
+2019-05-06 09:12:58,631 - result - INFO - 用例    PASS    修改成员昵称
+2019-05-06 09:13:00,717 - result - INFO - 用例    PASS    用户退出加入家庭
+2019-05-06 09:13:02,937 - result - INFO - 用例    PASS    创建家庭成员，邀请码错误
+2019-05-06 09:13:05,161 - result - INFO - 用例    PASS    创建家庭成员
+2019-05-06 09:13:07,255 - result - INFO - 用例    PASS    APP密码登录，密码错误
+2019-05-06 09:13:09,339 - result - INFO - 用例    PASS    用户修改密码，旧密码错误
+2019-05-06 09:13:11,434 - result - INFO - 用例    PASS    修改成员昵称，target_user_id错误
+2019-05-06 09:13:13,513 - result - INFO - 用例    PASS    用户退出加入家庭，family_id错误
+2019-05-06 09:13:15,621 - result - INFO - 用例    PASS    客户端退出登陆
+2019-05-06 09:13:17,730 - result - INFO - 用例    PASS    判断客户端是否在线
+2019-05-06 09:13:19,832 - result - INFO - 用例    PASS    判断客户端是否在线，client_id错误
+2019-05-06 09:13:21,940 - result - INFO - 用例    PASS    APP检查升级
+2019-05-06 09:13:24,015 - result - INFO - 用例    PASS    H5资源包检查升级
+2019-05-06 09:13:26,092 - result - INFO - 用例    PASS    路由器检查升级
+2019-05-06 09:13:28,167 - result - INFO - 用例    PASS    ios审核版本开关
+2019-05-06 09:13:30,242 - result - INFO - 用例    PASS    ios审核版本开关，版本缺失
+2019-05-06 09:13:32,289 - result - INFO - 用例    PASS    路由器检查升级，router_id错误
+2019-05-06 09:13:34,351 - result - INFO - 用例    PASS    app调用解绑定路由器，family_id错误
+2019-05-06 09:13:36,417 - result - INFO - 用例    PASS    router调用解绑路由器，timestamp错误
+2019-05-06 09:13:38,497 - result - INFO - 用例    PASS    删除家庭成员，户主删除自己
+2019-05-06 09:13:40,572 - result - INFO - 用例    PASS    删除家庭，method错误
+2019-05-06 09:13:42,655 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-05-06 09:13:44,841 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-05-06 09:13:46,918 - result - INFO - 用例    PASS    删除家庭成员
+2019-05-06 09:13:49,046 - result - INFO - 用例    PASS    删除家庭

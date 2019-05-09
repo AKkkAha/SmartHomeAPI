@@ -1,0 +1,24 @@
+2019-04-29 11:04:50,910 - result - INFO - 用例    FAIL    APP自动登录  code: -17010 msg: token expired!
+2019-04-29 11:04:50,957 - result - INFO - 用例    FAIL    创建家庭  code: -14004 msg: user donot login
+2019-04-29 11:04:53,010 - result - INFO - 用例    PASS    获取用户账户信息，list账户信息错误
+2019-04-29 11:04:55,052 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-29 11:04:57,111 - result - INFO - 用例    FAIL    app调用绑定路由器  code: -14004 msg: user donot login
+2019-04-29 11:04:59,147 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -8003 msg: it is invalid req, family_id isn't unsigned long long type
+2019-04-29 11:04:59,226 - result - INFO - 用例    FAIL    创建家庭  code: -14004 msg: user donot login
+2019-04-29 11:05:01,282 - result - INFO - 用例    PASS    通过二维码链接获取产品信息
+2019-04-29 11:05:03,345 - result - INFO - 用例    PASS    通过渠道设备的固件信息获取产品信息
+2019-04-29 11:05:05,394 - result - INFO - 用例    FAIL    获取品类的属性列表，空列表  code: 0 msg: 
+2019-04-29 11:05:07,447 - result - INFO - 用例    FAIL    获取产品列表，品类错误  code: 0 msg: 
+2019-04-29 11:05:09,542 - result - INFO - 用例    PASS    获取设备品类列表，更新时间错误    No JSON object could be decoded
+2019-04-29 11:05:11,637 - result - INFO - 用例    FAIL    获取产品的引导信息，product_id错误  code: 0 msg: 
+2019-04-29 11:05:13,707 - result - INFO - 用例    FAIL    获取具体产品的属性，product_id错误  code: 0 msg: 
+2019-04-29 11:05:15,766 - result - INFO - 用例    PASS    获取设备故障配置列表，time缺失    Unterminated string starting at: line 1 column 2016 (char 2015)
+2019-04-29 11:05:17,831 - result - INFO - 用例    FAIL    获取渠道商列表，type_id错误  code: 0 msg: 
+2019-04-29 11:05:20,033 - result - INFO - 用例    FAIL    获取墨迹天气服务，city_id错误  code: 0 msg: it is invalid req, city_id isn't unsigned integer type
+2019-04-29 11:05:22,221 - result - INFO - 用例    FAIL    通过二维码链接获取产品信息，url错误  code: -22101 msg: empty result.
+2019-04-29 11:05:24,368 - result - INFO - 用例    FAIL    通过渠道设备的固件信息获取产品信息，pid错误  code: 0 msg: 
+2019-04-29 11:05:24,430 - result - INFO - 用例    FAIL    创建家庭  code: -14004 msg: user donot login
+2019-04-29 11:05:26,486 - result - INFO - 用例    FAIL    app调用解绑定路由器  code: -14004 msg: user donot login
+2019-04-29 11:05:28,533 - result - INFO - 用例    FAIL    router调用解绑路由器  code: -8003 msg: it is invalid req, family_id isn't unsigned long long type
+2019-04-29 11:05:30,596 - result - INFO - 用例    FAIL    删除家庭成员  code: -14004 msg: user donot login
+2019-04-29 11:05:32,635 - result - INFO - 用例    FAIL    删除家庭  code: -14004 msg: user donot login

@@ -1,0 +1,65 @@
+2019-04-11 16:27:57,796 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
+2019-04-11 16:27:59,861 - result - INFO - 用例    PASS    app验证码登陆，phone错误
+2019-04-11 16:28:01,956 - result - INFO - 用例    PASS    获取手机注册验证码，type错误
+2019-04-11 16:28:04,033 - result - INFO - 用例    PASS    校验手机验证码，手机号已注册
+2019-04-11 16:28:06,111 - result - INFO - 用例    PASS    APP自动登录
+2019-04-11 16:28:06,299 - result - INFO - 用例    PASS    创建家庭
+2019-04-11 16:28:08,362 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-11 16:28:10,457 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-11 16:28:12,551 - result - INFO - 用例    FAIL    创建家庭成员  code: -16013 msg: family owner cannot invite himself to join
+2019-04-11 16:28:14,628 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-11 16:28:16,755 - result - INFO - 用例    PASS    获取用户加入的家庭列表
+2019-04-11 16:28:18,911 - result - INFO - 用例    PASS    创建家庭，家庭名称非法
+2019-04-11 16:28:21,006 - result - INFO - 用例    PASS    更新家庭基本信息，family_id错误
+2019-04-11 16:28:23,177 - result - INFO - 用例    PASS    获取成员信息列表，family_id错误
+2019-04-11 16:28:25,256 - result - INFO - 用例    FAIL    创建家庭成员，family_id错误  code: -8003 msg: it is invalid req, family_id isn't string type
+2019-04-11 16:28:27,351 - result - INFO - 用例    PASS    获取用户申请码，family_id错误
+2019-04-11 16:28:29,509 - result - INFO - 用例    PASS    获取用户加入的家庭列表，timestamp错误
+2019-04-11 16:28:31,572 - result - INFO - 用例    PASS    路由器校验登录_反例
+2019-04-11 16:28:33,634 - result - INFO - 用例    PASS    验证路由器有效性，uuid错误
+2019-04-11 16:28:35,743 - result - INFO - 用例    PASS    app调用绑定路由器，router_pwd错误
+2019-04-11 16:28:37,792 - result - INFO - 用例    PASS    router调用绑定路由器，bind_time错误
+2019-04-11 16:28:39,854 - result - INFO - 用例    PASS    获取路由器信息，encry错误
+2019-04-11 16:28:41,933 - result - INFO - 用例    PASS    MDP家庭路由转发，msg_type错误
+2019-04-11 16:28:44,026 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-11 16:28:46,200 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-11 16:28:48,309 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-11 16:28:50,357 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-11 16:28:52,404 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-11 16:28:54,467 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-11 16:28:56,562 - result - INFO - 用例    PASS    添加房间
+2019-04-11 16:28:58,625 - result - INFO - 用例    PASS    获取房间列表
+2019-04-11 16:29:00,687 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-04-11 16:29:02,734 - result - INFO - 用例    PASS    删除房间
+2019-04-11 16:29:04,799 - result - INFO - 用例    PASS    添加房间，无family_id
+2019-04-11 16:29:06,878 - result - INFO - 用例    PASS    获取房间列表，user_id错误
+2019-04-11 16:29:08,940 - result - INFO - 用例    PASS    获取快捷方式列表，room_id错误
+2019-04-11 16:29:11,019 - result - INFO - 用例    PASS    删除房间，list错误
+2019-04-11 16:29:13,190 - result - INFO - 用例    PASS    添加设备
+2019-04-11 16:29:15,285 - result - INFO - 用例    PASS    刷新设备
+2019-04-11 16:29:17,332 - result - INFO - 用例    PASS    获取设备信息
+2019-04-11 16:29:19,380 - result - INFO - 用例    PASS    按照家庭获取设备列表
+2019-04-11 16:29:21,459 - result - INFO - 用例    PASS    按照房间获取设备列表
+2019-04-11 16:29:23,538 - result - INFO - 用例    PASS    获取家庭设备品类列表
+2019-04-11 16:29:25,743 - result - INFO - 用例    PASS    获取设备状态列表
+2019-04-11 16:29:27,930 - result - INFO - 用例    PASS    删除设备
+2019-04-11 16:29:29,993 - result - INFO - 用例    PASS    添加设备，device_uuid错误
+2019-04-11 16:29:32,056 - result - INFO - 用例    PASS    刷新设备，device_uuid错误
+2019-04-11 16:29:34,135 - result - INFO - 用例    PASS    获取设备信息，device_id错误
+2019-04-11 16:29:36,276 - result - INFO - 用例    PASS    按照家庭获取设备列表，family_id错误
+2019-04-11 16:29:38,354 - result - INFO - 用例    PASS    按照房间获取设备列表，device_category_id错误
+2019-04-11 16:29:40,542 - result - INFO - 用例    PASS    获取家庭设备品类列表，family_id错误
+2019-04-11 16:29:42,592 - result - INFO - 用例    PASS    获取设备状态列表，device_id错误
+2019-04-11 16:29:44,654 - result - INFO - 用例    PASS    删除设备，method错误
+2019-04-11 16:29:46,763 - result - INFO - 用例    PASS    APP检查升级
+2019-04-11 16:29:48,842 - result - INFO - 用例    PASS    H5资源包检查升级
+2019-04-11 16:29:50,937 - result - INFO - 用例    PASS    APP检查升级_反例
+2019-04-11 16:29:53,078 - result - INFO - 用例    PASS    H5资源包检查升级_反例
+2019-04-11 16:29:55,157 - result - INFO - 用例    FAIL    通知app版本更新  code: -8003 msg: invalid method.
+2019-04-11 16:29:57,236 - result - INFO - 用例    FAIL    通知rounter版本更新  code: -8003 msg: invalid method.
+2019-04-11 16:29:59,299 - result - INFO - 用例    PASS    app调用解绑定路由器，family_id错误
+2019-04-11 16:30:01,378 - result - INFO - 用例    FAIL    router调用解绑路由器，timestamp错误  code: -15005 msg: family have bind other router
+2019-04-11 16:30:03,503 - result - INFO - 用例    PASS    删除家庭，method错误
+2019-04-11 16:30:05,628 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-11 16:30:07,707 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-11 16:30:09,786 - result - INFO - 用例    PASS    删除家庭

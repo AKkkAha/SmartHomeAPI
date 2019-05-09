@@ -1,0 +1,2 @@
+2019-05-08 15:06:06,905 - result - INFO - 用例    PASS    获取手机登陆验证码
+2019-05-08 15:06:10,915 - result - INFO - 用例    FAIL    APP验证码登陆  code: -17017 msg: code error!

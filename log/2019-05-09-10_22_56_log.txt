@@ -1,0 +1,10 @@
+2019-05-09 10:22:56,480 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-05-09 10:22:56,480 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 1557368576, "params": {"os_version": "android4.3", "secret": "e10adc3949ba59abbe56e057f20f883e", "hardware_version": "Huawei", "phone": "18223332333", "pwd": "123456", "os_type": "Android", "app_version": "v0.5"}, "method": "um_register_user", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-05-09 10:22:56,526 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_register_user", "timestamp":1557368576, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1557368576_2302662","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_46288_1557368576_2302661", "code":-17011, "msg":"did not find the secret ticket of register!","rcv_stmp":1557368576380720,"process_stmp":1557368576380847,"rsp_stmp":1557368576391445}}
+
+
+2019-05-09 10:22:58,528 - logger - INFO - disconnected to 119.23.168.152:30086
+

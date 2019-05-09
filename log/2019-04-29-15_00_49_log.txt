@@ -1,0 +1,284 @@
+2019-04-29 15:00:51,065 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:00:51,065 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:51,096 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521251, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521251_20653365","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9529_1556521251_20653364", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjUxLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ1MSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoienh3Ym12ZmwiLCJzaWciOiJiNWVhYWI5Y2MyNThkZmVlMjcwMjYyMjNlMTBjMDNiMTU2MzU1ZjUzIn0="},"rcv_stmp":1556521251429695,"process_stmp":1556521251429802,"rsp_stmp":1556521251447842}}
+
+
+2019-04-29 15:00:51,096 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:51,128 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521251, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521251_20653366", "code":0, "msg":"the client is auth ago."}}
+
+
+2019-04-29 15:00:51,128 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:00:51,128 - logger - INFO - 用例    PASS    APP自动登录
+
+2019-04-29 15:00:51,128 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:00:51,128 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:51,158 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521251, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521251_20653369","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9530_1556521251_20653368", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjUxLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ1MSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoienh3Ym12ZmwiLCJzaWciOiJiNWVhYWI5Y2MyNThkZmVlMjcwMjYyMjNlMTBjMDNiMTU2MzU1ZjUzIn0="},"rcv_stmp":1556521251494929,"process_stmp":1556521251494998,"rsp_stmp":1556521251511996}}
+
+
+2019-04-29 15:00:51,158 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456890, "params": {"family_name": "API\u6d4b\u8bd5\u7684\u5bb6"}, "method": "fm_create_family", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:51,190 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"fm_create_family", "timestamp":1556521251, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521251_20653370", "code":0, "msg":"OK","rcv_stmp":1556521251523775,"process_stmp":1556521251523866,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"18926592010", "session_id":"112.95.214.226_9530_1556521251_20653368", "result":{"family_id":22961}}}
+
+
+2019-04-29 15:00:53,190 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:00:53,190 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:53,236 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521253, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521253_20653382","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9532_1556521253_20653381", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjUzLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ1MywiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoiaGJnZWhoY3YiLCJzaWciOiI2NmFkODExZDVmNzZmMzkyYzY5NWZmOWZlMmEzZmMyOTUzNjVlMTY5In0="},"rcv_stmp":1556521253560490,"process_stmp":1556521253560575,"rsp_stmp":1556521253583704}}
+
+
+2019-04-29 15:00:53,236 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456123, "params": {"list": [21767]}, "method": "dm_get_user_account", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:53,269 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"dm_get_user_account", "timestamp":1556521253, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521253_20653384", "code":-22102, "msg":"","rcv_stmp":1556521253604264,"process_stmp":1556521253604357,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"18926592010", "session_id":"112.95.214.226_9532_1556521253_20653381"}}
+
+
+2019-04-29 15:00:53,269 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:00:53,269 - logger - INFO - 用例    FAIL    获取用户账户信息，list账户信息错误  code: -22102 msg: 
+
+2019-04-29 15:00:55,273 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:00:55,273 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"zigbee_version": "v1.0", "bluetooth_version": "v1.0", "hardware_version": "v1.0", "router_version": "v1.0", "pwd": "1E137FEDDC3FCE36", "uuid": "000c229d200000000000D0B60A0001C9"}, "method": "dm_auth_router", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C9"}
+
+
+2019-04-29 15:00:55,305 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C9", "encry":"false", "content":{"method":"dm_auth_router", "timestamp":1556521255, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521255_20653400", "code":0, "msg":"OK","rcv_stmp":1556521255649700,"process_stmp":1556521255649780,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"000c229d200000000000D0B60A0001C9", "session_id":"112.95.214.226_9535_1556521255_20653399", "result":{"router_id":22737}}}
+
+
+2019-04-29 15:00:55,305 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"zigbee_version": "v1.0", "bluetooth_version": "v1.0", "hardware_version": "v1.0", "router_version": "v1.0", "pwd": "1E137FEDDC3FCE35", "uuid": "000c229d200000000000D0B60A0001C8"}, "method": "dm_auth_router", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C8"}
+
+
+2019-04-29 15:00:55,319 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C8", "encry":"false", "content":{"method":"dm_auth_router", "timestamp":1556521255, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521255_20653402", "code":0, "msg":"the router is auth ago."}}
+
+
+2019-04-29 15:00:55,319 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:00:55,319 - logger - INFO - 用例    PASS    路由器校验登录
+
+2019-04-29 15:00:57,321 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:00:57,321 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:57,368 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521257, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521257_20653409","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9536_1556521257_20653408", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjU3LCJleHBpcmVfdGltZSI6MTU1Njc4MDQ1NywiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoienBmd25tamoiLCJzaWciOiIxNjQ4N2NlMjNmM2EyNjFkYjA2YzdhOGZlYWQ4ODRjY2FiZmEyOTc3In0="},"rcv_stmp":1556521257698726,"process_stmp":1556521257698816,"rsp_stmp":1556521257712104}}
+
+
+2019-04-29 15:00:57,368 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456123, "params": {"router_uuid": "000c229d200000000000D0B60A0001C9", "family_id": 22961, "bind_time": 1556521257, "router_pwd": "1E137FEDDC3FCE36"}, "method": "fm_bind_router", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:00:57,398 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"fm_bind_router", "timestamp":1556521257, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521257_20653410", "code":0, "msg":"OK","rcv_stmp":1556521257734167,"process_stmp":1556521257734251,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"18926592010", "session_id":"112.95.214.226_9536_1556521257_20653408", "result":{"router_id": 22737}}}
+
+
+2019-04-29 15:00:57,398 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:00:57,398 - logger - INFO - 用例    PASS    app调用绑定路由器
+
+2019-04-29 15:00:59,461 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:00:59,461 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"zigbee_version": "v1.0", "bluetooth_version": "v1.0", "hardware_version": "v1.0", "router_version": "v1.0", "pwd": "1E137FEDDC3FCE35", "uuid": "000c229d200000000000D0B60A0001C8"}, "method": "dm_auth_router", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C8"}
+
+
+2019-04-29 15:00:59,476 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C8", "encry":"false", "content":{"method":"dm_auth_router", "timestamp":1556521259, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521259_20653427", "code":0, "msg":"OK","rcv_stmp":1556521259816914,"process_stmp":1556521259817027,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"000c229d200000000000D0B60A0001C8", "session_id":"112.95.214.226_9539_1556521259_20653426", "result":{"router_id":22703}}}
+
+
+2019-04-29 15:00:59,476 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456123, "params": {"family_id": 22961, "bind_time": 1556521259, "user_id": 21766}, "method": "dm_bind_router", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C9"}
+
+
+2019-04-29 15:00:59,493 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C9", "encry":"false", "content":{"method":"dm_bind_router", "timestamp":1556521259, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521259_20653429", "code":-15030, "msg":"family have bind other router","rcv_stmp":1556521259833751,"process_stmp":1556521259833835,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"000c229d200000000000D0B60A0001C9", "session_id":"112.95.214.226_9539_1556521259_20653426"}}
+
+
+2019-04-29 15:00:59,493 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:00:59,493 - logger - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+
+2019-04-29 15:01:01,555 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:01,555 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:01,586 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521261, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521261_20653442","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9542_1556521261_20653441", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjYxLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ2MSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoibm9rb215Y3giLCJzaWciOiI2ZjA3YWYyZDdjYzVkOTUwYTM1MzIzMTRjZmY4N2QwZGNiOTMxMmIzIn0="},"rcv_stmp":1556521261923298,"process_stmp":1556521261923394,"rsp_stmp":1556521261936690}}
+
+
+2019-04-29 15:01:01,586 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 1234567890, "params": {"timestamp": 1234567, "user_id": 21767, "mid_list": [12, 13, 14, 15, 16], "msg_type": 1, "family_id": 111}, "method": "mg_ack_msg", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:01,601 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"mg_ack_msg", "timestamp":1556521261, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521261_20653443","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9542_1556521261_20653441", "code":0, "msg":"success","rcv_stmp":1556521261955240,"process_stmp":1556521261955328,"rsp_stmp":1556521261956367}}
+
+
+2019-04-29 15:01:01,601 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:01,601 - logger - INFO - 用例    FAIL    消息已读确认，user_id错误  code: 0 msg: success
+
+2019-04-29 15:01:03,617 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:03,617 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:03,664 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521264, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521263_20653463","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9544_1556521263_20653462", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjYzLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ2MywiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicWRyeG95c3YiLCJzaWciOiIxNDkxNzA2ZjRjYzdmOTljNDI5MDZmZWY3NDY1Yzc3MzQzOWQ4Y2VjIn0="},"rcv_stmp":1556521263982353,"process_stmp":1556521263982431,"rsp_stmp":1556521264012581}}
+
+
+2019-04-29 15:01:03,664 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 133456123, "params": {"content": "hello", "from": "upgrade", "is_need_push": 1, "msg_type": 2, "title": "title", "target_ext": "ext", "target_id": 0, "target_type": -1}, "method": "mg_add_msg", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:08,665 - logger - INFO - recv exception: timed out
+
+2019-04-29 15:01:08,665 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:08,665 - logger - INFO - 用例    FAIL    添加消息，target_type错误  time out
+
+2019-04-29 15:01:10,681 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:10,681 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:10,729 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521271, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521271_20653499","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9549_1556521271_20653498", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjcxLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ3MSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoidWFzYXBoeHEiLCJzaWciOiJiMThmMWQwOGZiOTExMTIzNzc0NTA0ZjgzZGJjYzdjOTFkYzg3MjYyIn0="},"rcv_stmp":1556521271047397,"process_stmp":1556521271047519,"rsp_stmp":1556521271062848}}
+
+
+2019-04-29 15:01:10,729 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 133456123, "params": {"user_id": 21767, "mid_list": [12, 13]}, "method": "mg_del_msg", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:10,743 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"mg_del_msg", "timestamp":1556521271, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521271_20653500","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9549_1556521271_20653498", "code":0, "msg":"success", "result":{"del_num":0},"rcv_stmp":1556521271087992,"process_stmp":1556521271088122,"rsp_stmp":1556521271089156}}
+
+
+2019-04-29 15:01:10,743 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:10,743 - logger - INFO - 用例    FAIL    删除消息，user_id错误  code: 0 msg: success
+
+2019-04-29 15:01:12,747 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:12,747 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:12,795 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521273, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521273_20653517","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9552_1556521273_20653516", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjczLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ3MywiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoid3d3d2ZzcXIiLCJzaWciOiIzZWJmZjdkYWQ3Y2IzNDBiOGNjMGFkYjVkNDgxMGExNDAzODhmN2U4In0="},"rcv_stmp":1556521273113636,"process_stmp":1556521273113740,"rsp_stmp":1556521273137530}}
+
+
+2019-04-29 15:01:12,795 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 133456123, "params": {"user_id": 1234, "msg_type": 2, "timestamp": 1516794910500122, "msg_state": 1111, "family_id": 123, "page": {"begin": 0, "size": 10}}, "method": "mg_get_msg_list", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:12,811 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"mg_get_msg_list", "timestamp":1556521273, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521273_20653518","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9552_1556521273_20653516", "code":0, "msg":"success", "result":{"msg_list":[]},"rcv_stmp":1556521273158470,"process_stmp":1556521273158608,"rsp_stmp":1556521273159987}}
+
+
+2019-04-29 15:01:12,811 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:12,811 - logger - INFO - 用例    FAIL    加载消息列表，msg_ststua错误  code: 0 msg: success
+
+2019-04-29 15:01:14,826 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:14,826 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:14,874 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521275, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521275_20653529","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9554_1556521275_20653528", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjc1LCJleHBpcmVfdGltZSI6MTU1Njc4MDQ3NSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoiemVqeWt4YXYiLCJzaWciOiIxNTQ2ZmQ4ODc5ZGFlZmMzMDFjMDA0NGY5MGNiZTQ0NTY1YjM4NGVkIn0="},"rcv_stmp":1556521275193073,"process_stmp":1556521275193186,"rsp_stmp":1556521275212672}}
+
+
+2019-04-29 15:01:14,874 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 133456123, "params": {"family_id": 123, "msg_state": 111, "timestamp": 1516794910500122}, "method": "mg_get_msg_number", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:14,890 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"mg_get_msg_number", "timestamp":1556521275, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521275_20653530","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9554_1556521275_20653528", "code":0, "msg":"success", "result":{"list":[]},"rcv_stmp":1556521275232758,"process_stmp":1556521275232881,"rsp_stmp":1556521275234009}}
+
+
+2019-04-29 15:01:14,890 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:14,890 - logger - INFO - 用例    FAIL    获取满足条件的消息总数，user_id缺失  code: 0 msg: success
+
+2019-04-29 15:01:16,904 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:16,904 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:16,951 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521277, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521277_20653544","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9557_1556521277_20653543", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjc3LCJleHBpcmVfdGltZSI6MTU1Njc4MDQ3NywiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoidHF2anh1eXciLCJzaWciOiIwYzNmMWIzZmYyZDNkODU1MTIwNWZiMGI0MmRhZjJjMjg5YTc5MTVkIn0="},"rcv_stmp":1556521277267366,"process_stmp":1556521277267476,"rsp_stmp":1556521277283558}}
+
+
+2019-04-29 15:01:16,951 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 133456123, "params": {"content": "hello", "msg_id": "111", "from": "upgrade", "title": "title"}, "method": "mg_modify_msg", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:16,967 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"mg_modify_msg", "timestamp":1556521277, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521277_20653545","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9557_1556521277_20653543", "code":-1, "msg":"success","rcv_stmp":1556521277317250,"process_stmp":1556521277317328,"rsp_stmp":1556521277317828}}
+
+
+2019-04-29 15:01:16,967 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:16,967 - logger - INFO - 用例    PASS    修改消息，msg_id错误
+
+2019-04-29 15:01:18,967 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:18,967 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:19,000 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521279, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521279_20653558","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9559_1556521279_20653557", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjc5LCJleHBpcmVfdGltZSI6MTU1Njc4MDQ3OSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoidGlnZHNkYnUiLCJzaWciOiIyMTU3NDhiMmRjZjQ2NDk1ZGRlMDk3NmVmMmZiZWQ0NDNiOWI4MzdjIn0="},"rcv_stmp":1556521279331362,"process_stmp":1556521279331436,"rsp_stmp":1556521279342323}}
+
+
+2019-04-29 15:01:19,000 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456123, "params": {"family_id": 22961, "unbind_time": 1556521279}, "method": "fm_unbind_router", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:19,015 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"fm_unbind_router", "timestamp":1556521279, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521279_20653559", "code":0, "msg":"OK","rcv_stmp":1556521279359070,"process_stmp":1556521279359162,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"18926592010", "session_id":"112.95.214.226_9559_1556521279_20653557"}}
+
+
+2019-04-29 15:01:19,015 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:19,015 - logger - INFO - 用例    PASS    app调用解绑定路由器
+
+2019-04-29 15:01:21,016 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:21,016 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"zigbee_version": "v1.0", "bluetooth_version": "v1.0", "hardware_version": "v1.0", "router_version": "v1.0", "pwd": "1E137FEDDC3FCE36", "uuid": "000c229d200000000000D0B60A0001C9"}, "method": "dm_auth_router", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C9"}
+
+
+2019-04-29 15:01:21,046 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C9", "encry":"false", "content":{"method":"dm_auth_router", "timestamp":1556521281, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521281_20653568", "code":0, "msg":"OK","rcv_stmp":1556521281381599,"process_stmp":1556521281381694,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"000c229d200000000000D0B60A0001C9", "session_id":"112.95.214.226_9561_1556521281_20653567", "result":{"router_id":22737}}}
+
+
+2019-04-29 15:01:21,046 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456123, "params": {"family_id": 22961, "unbind_time": 1556521281, "user_id": 21766}, "method": "dm_unbind_router", "req_id": 123}, "encry": "false", "uuid": "000c229d200000000000D0B60A0001C9"}
+
+
+2019-04-29 15:01:21,062 - logger - INFO - ----------recv msg----------: {"uuid":"000c229d200000000000D0B60A0001C9", "encry":"false", "content":{"method":"dm_unbind_router", "timestamp":1556521281, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521281_20653570", "code":0, "msg":"family have not bind any router","rcv_stmp":1556521281405818,"process_stmp":1556521281405901,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"000c229d200000000000D0B60A0001C9", "session_id":"112.95.214.226_9561_1556521281_20653567"}}
+
+
+2019-04-29 15:01:21,062 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:21,062 - logger - INFO - 用例    PASS    router调用解绑路由器
+
+2019-04-29 15:01:23,066 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:23,066 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:23,114 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521283, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521283_20653583","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9563_1556521283_20653582", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjgzLCJleHBpcmVfdGltZSI6MTU1Njc4MDQ4MywiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoibmpvZmxxZXAiLCJzaWciOiI1ZTc2YmUyN2ZkNGE1ZjM0YmI3YzljMzY5NWVmZWQzY2I1Zjc4MmJmIn0="},"rcv_stmp":1556521283431513,"process_stmp":1556521283431575,"rsp_stmp":1556521283447420}}
+
+
+2019-04-29 15:01:23,114 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123123123, "params": {"family_id": 21767, "target_user_id": 20664}, "method": "fm_remove_member", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:23,161 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"fm_remove_member", "timestamp":1556521283, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521283_20653584", "code":0, "msg":"member donot include in family","rcv_stmp":1556521283477217,"process_stmp":1556521283477320,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"18926592010", "session_id":"112.95.214.226_9563_1556521283_20653582"}}
+
+
+2019-04-29 15:01:23,161 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:23,161 - logger - INFO - 用例    PASS    删除家庭成员
+
+2019-04-29 15:01:25,176 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-04-29 15:01:25,176 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"token": "eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTE5MTI1LCJleHBpcmVfdGltZSI6MTU1Njc3ODMyNSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoicHVmd2JkZnQiLCJzaWciOiIwNzdjOGY0NzQxZThmYWYzODU0Yzc2ZDU1OGYzOGM3MWE5YTFhNDAyIn0=", "user_id": 21766, "os_type": "Android"}, "method": "um_auth", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:25,207 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_auth", "timestamp":1556521285, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521285_20653598","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_9565_1556521285_20653597", "code":0, "msg":"success", "result":{"user_id":21766,"token":"eyJ1c2VyX2lkIjoyMTc2NiwicGhvbmUiOiIxODkyNjU5MjAxMCIsInRva2VuX3R5cGUiOjMsImNyZWF0ZV90aW1lIjoxNTU2NTIxMjg1LCJleHBpcmVfdGltZSI6MTU1Njc4MDQ4NSwiZnJvbSI6IlNlcnZlciIsIm5vbmNlIjoia2t4Z3B6Y2kiLCJzaWciOiJmMzdiZGNkYzMwM2MwNGZlNmZhNzI1YzMzNTE0M2QxYzUxMTIxZTZkIn0="},"rcv_stmp":1556521285541286,"process_stmp":1556521285541374,"rsp_stmp":1556521285552775}}
+
+
+2019-04-29 15:01:25,207 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 123456890, "params": {"family_id": 22961}, "method": "fm_delete_family", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-04-29 15:01:25,255 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"fm_delete_family", "timestamp":1556521285, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1556521285_20653599", "code":0, "msg":"OK","rcv_stmp":1556521285567161,"process_stmp":1556521285567237,"rsp_stmp":0, "msg_encry":"false", "msg_uuid":"18926592010", "session_id":"112.95.214.226_9565_1556521285_20653597"}}
+{"uuid":"", "encry":"false", "content":{"method":"mdp_msg","msg_tag":"Access_Svr_119.23.168.152_30086_1556521285_20653599","req_id":0,"timestamp":1556521285,"target_id":21766,"target_uuid":"","from_svr":"Push_Svr_127.0.0.1_9900","msg_uuid":"","msg_encry":"false","params":{"target_id":0,"msg_type":"P2F","msg_id":116533,"content":{"method":"syn_delete_family","family_id":22961,"user_id":21766,"operater_id":21766,"members":[21766],"family_name":"API测试的家","user_family_nickname":"","operater_family_nickname":""}},"to_svr":"Access_Svr_119.23.168.152_30086"}}
+
+
+2019-04-29 15:01:25,255 - logger - INFO - disconnected to 119.23.168.152:30086
+
+2019-04-29 15:01:25,255 - logger - INFO - 用例    PASS    删除家庭
+

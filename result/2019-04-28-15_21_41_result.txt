@@ -1,0 +1,61 @@
+2019-04-28 15:21:45,400 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-28 15:21:47,540 - result - INFO - 用例    PASS    APP自动登录
+2019-04-28 15:21:49,713 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-28 15:21:51,792 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-28 15:21:54,042 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-28 15:21:56,293 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-28 15:22:00,460 - result - INFO - 用例    PASS    用户更新资料
+2019-04-28 15:22:02,555 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-28 15:22:02,617 - result - INFO - 用例    PASS    创建家庭
+2019-04-28 15:22:04,743 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-28 15:22:06,930 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-28 15:22:09,072 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-28 15:22:11,165 - result - INFO - 用例    PASS    获取用户加入的家庭列表
+2019-04-28 15:22:13,229 - result - INFO - 用例    PASS    修改家庭成员的权限
+2019-04-28 15:22:15,355 - result - INFO - 用例    PASS    获取家庭基本信息
+2019-04-28 15:22:17,464 - result - INFO - 用例    PASS    获取家庭背景图片列表
+2019-04-28 15:22:19,684 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-28 15:22:21,825 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-28 15:22:23,997 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-28 15:22:26,075 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-28 15:22:28,186 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-28 15:22:30,296 - result - INFO - 用例    FAIL    获取用户账户信息  code: -22102 msg: 
+2019-04-28 15:22:32,441 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-28 15:22:34,520 - result - INFO - 用例    FAIL    添加设备  code: -15018 msg: Duplicate entry '21767-123124' for key 'F_family_id'
+2019-04-28 15:22:36,691 - result - INFO - 用例    PASS    陌生设备第一次接入
+2019-04-28 15:22:38,895 - result - INFO - 用例    PASS    刷新设备
+2019-04-28 15:22:41,098 - result - INFO - 用例    PASS    获取设备信息
+2019-04-28 15:22:43,349 - result - INFO - 用例    PASS    按照家庭获取设备列表
+2019-04-28 15:22:45,677 - result - INFO - 用例    PASS    按照房间获取设备列表
+2019-04-28 15:22:47,851 - result - INFO - 用例    PASS    获取家庭设备品类列表
+2019-04-28 15:22:50,023 - result - INFO - 用例    PASS    获取设备状态列表
+2019-04-28 15:22:52,101 - result - INFO - 用例    PASS    全量刷新设备
+2019-04-28 15:22:54,243 - result - INFO - 用例    PASS    上报设备状态
+2019-04-28 15:22:56,368 - result - INFO - 用例    PASS    删除设备状态
+2019-04-28 15:22:58,461 - result - INFO - 用例    PASS    获取设备告警列表
+2019-04-28 15:23:00,602 - result - INFO - 用例    PASS    上报设备告警
+2019-04-28 15:23:02,697 - result - INFO - 用例    PASS    删除设备告警
+2019-04-28 15:23:04,779 - result - INFO - 用例    PASS    删除设备
+2019-04-28 15:23:06,888 - result - INFO - 用例    PASS    订阅消息推送
+2019-04-28 15:23:09,108 - result - INFO - 用例    PASS    去订阅消息推送
+2019-04-28 15:23:11,249 - result - INFO - 用例    PASS    添加设备，device_uuid错误
+2019-04-28 15:23:13,483 - result - INFO - 用例    FAIL    陌生设备第一次接入，device_name缺失  code: -8003 msg: it is invalid req, cannot find device_name
+2019-04-28 15:23:15,609 - result - INFO - 用例    PASS    刷新设备，device_uuid错误
+2019-04-28 15:23:17,875 - result - INFO - 用例    PASS    获取设备信息，device_id错误
+2019-04-28 15:23:19,924 - result - INFO - 用例    PASS    按照家庭获取设备列表，family_id错误
+2019-04-28 15:23:22,095 - result - INFO - 用例    FAIL    全量刷新设备，user_id错误  code: 0 msg: OK
+2019-04-28 15:23:24,158 - result - INFO - 用例    FAIL    上报设备状态,device_uuid错误  code: 0 msg: OK
+2019-04-28 15:23:26,361 - result - INFO - 用例    FAIL    删除设备状态，family_id错误  code: 0 msg: current only support intelligent door lock
+2019-04-28 15:23:28,628 - result - INFO - 用例    FAIL    获取设备告警列表，status错误  code: -8003 msg: 
+2019-04-28 15:23:30,721 - result - INFO - 用例    FAIL    上报设备告警，device_id错误  code: 0 msg: 
+2019-04-28 15:23:32,786 - result - INFO - 用例    FAIL    删除设备告警，user_id错误  code: 0 msg: 
+2019-04-28 15:23:34,957 - result - INFO - 用例    PASS    按照房间获取设备列表，device_category_id错误
+2019-04-28 15:23:37,144 - result - INFO - 用例    PASS    获取家庭设备品类列表，family_id错误
+2019-04-28 15:23:39,286 - result - INFO - 用例    PASS    获取设备状态列表，device_id错误
+2019-04-28 15:23:41,411 - result - INFO - 用例    PASS    删除设备，method错误
+2019-04-28 15:23:43,490 - result - INFO - 用例    FAIL    订阅消息推送，app_uuid缺失  code: -8003 msg: it is invalid req, cannot find app_uuid
+2019-04-28 15:23:45,599 - result - INFO - 用例    FAIL    去订阅消息推送，app_uuid错误  code: 0 msg: 
+2019-04-28 15:23:47,724 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-28 15:23:49,788 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-28 15:23:51,882 - result - INFO - 用例    PASS    删除家庭成员
+2019-04-28 15:23:54,118 - result - INFO - 用例    PASS    删除家庭

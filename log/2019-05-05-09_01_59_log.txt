@@ -1,0 +1,16 @@
+2019-05-05 09:01:59,795 - logger - INFO - connected to 119.23.168.152:30086
+
+2019-05-05 09:01:59,795 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"phone": "18926592010", "type": 2}, "method": "um_get_phone_code", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-05-05 09:01:59,842 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_get_phone_code", "timestamp":1557018116, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1557018116_867573","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_23903_1557018116_867572", "code":0, "msg":"success","rcv_stmp":1557018116270773,"process_stmp":1557018116270876,"rsp_stmp":1557018116287627}}
+
+
+2019-05-05 09:02:03,367 - logger - INFO - ----------send msg----------: {"content": {"timestamp": 12345667, "params": {"phone": "18926592010", "sso": 1, "code": "809081", "os_version": "android4.3", "os_type": "Android", "app_version": "v0.5", "phone_name": "xxxxxxxx", "hardware_version": "Huawei"}, "method": "um_login_code", "req_id": 123}, "encry": "false", "uuid": "18926592010"}
+
+
+2019-05-05 09:02:03,430 - logger - INFO - ----------recv msg----------: {"uuid":"18926592010", "encry":"false", "content":{"method":"um_login_code", "timestamp":1557018119, "req_id":123, "msg_tag":"Access_Svr_119.23.168.152_30086_1557018119_867583","msg_uuid":"18926592010","msg_encry":"false","session_id":"112.95.214.226_23903_1557018116_867572", "code":-17017, "msg":"code error!","rcv_stmp":1557018119862943,"process_stmp":1557018119863076,"rsp_stmp":1557018119876161}}
+
+
+2019-05-05 09:02:03,430 - logger - INFO - disconnected to 119.23.168.152:30086
+

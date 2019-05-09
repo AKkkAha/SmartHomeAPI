@@ -1,0 +1,36 @@
+2019-04-25 10:33:47,846 - result - INFO - 用例    PASS    APP自动登录
+2019-04-25 10:33:49,957 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-25 10:33:52,098 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-25 10:33:54,285 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-25 10:33:56,473 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-25 10:33:58,834 - result - INFO - 用例    PASS    用户更新资料
+2019-04-25 10:34:01,069 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-25 10:34:01,319 - result - INFO - 用例    PASS    创建家庭
+2019-04-25 10:34:03,395 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-25 10:34:05,476 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-25 10:34:07,558 - result - INFO - 用例    FAIL    创建家庭成员  code: -16013 msg: family owner cannot invite himself to join
+2019-04-25 10:34:09,762 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-25 10:34:11,841 - result - INFO - 用例    PASS    获取用户加入的家庭列表
+2019-04-25 10:34:14,028 - result - INFO - 用例    PASS    路由器校验登录
+2019-04-25 10:34:16,092 - result - INFO - 用例    PASS    验证路由器有效性
+2019-04-25 10:34:18,232 - result - INFO - 用例    PASS    app调用绑定路由器
+2019-04-25 10:34:20,295 - result - INFO - 用例    FAIL    router调用绑定路由器  code: -15030 msg: family have bind other router
+2019-04-25 10:34:22,483 - result - INFO - 用例    FAIL    获取路由器信息  code: -15010 msg: 
+2019-04-25 10:34:24,687 - result - INFO - 用例    PASS    获取用户账户信息
+2019-04-25 10:34:26,859 - result - INFO - 用例    PASS    MDP家庭路由转发
+2019-04-25 10:34:28,937 - result - INFO - 用例    PASS    添加房间
+2019-04-25 10:34:31,000 - result - INFO - 用例    PASS    获取房间列表
+2019-04-25 10:34:33,049 - result - INFO - 用例    FAIL    dm_add_shortcut【添加快捷方式】  code: -15024 msg: Duplicate entry '21767-123' for key 'F_family_id'
+2019-04-25 10:34:35,095 - result - INFO - 用例    PASS    dm_sort_shortcut【修改快捷方式位置】
+2019-04-25 10:34:37,269 - result - INFO - 用例    PASS    dm_update_shortcut_new【全量更新快捷方式】
+2019-04-25 10:34:39,302 - result - INFO - 用例    PASS    dm_update_shortcut【修改快捷方式】
+2019-04-25 10:34:41,365 - result - INFO - 用例    PASS    获取快捷方式列表
+2019-04-25 10:34:43,411 - result - INFO - 用例    PASS    dm_update_shortcut_visible【更新快捷方式是否可见】
+2019-04-25 10:34:45,444 - result - INFO - 用例    PASS    dm_del_shortcut【删除快捷方式】
+2019-04-25 10:34:47,585 - result - INFO - 用例    PASS    修改房间信息
+2019-04-25 10:34:50,101 - result - INFO - 用例    PASS    dm_update_room_new【全量刷新房间】
+2019-04-25 10:34:52,210 - result - INFO - 用例    PASS    dm_update_room_order【修改房间图标位置】
+2019-04-25 10:34:54,461 - result - INFO - 用例    PASS    删除房间
+2019-04-25 10:34:56,555 - result - INFO - 用例    PASS    app调用解绑定路由器
+2019-04-25 10:34:58,776 - result - INFO - 用例    PASS    router调用解绑路由器
+2019-04-25 10:35:00,979 - result - INFO - 用例    PASS    删除家庭

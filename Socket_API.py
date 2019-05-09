@@ -11,8 +11,7 @@ class Socket_Cls(object):
         self.port = 30086
         self.tcplink = None
         self.log = logger.logcls.initial()
-
-
+        self.msg_to_send = None
 
     def conn(self):
         try:
@@ -31,36 +30,45 @@ class Socket_Cls(object):
 
 
     def send_msg(self, msg):
-        msg = json.dumps(msg) + '\n'
-        print "------send------: " + msg
+        self.msg_to_send = json.dumps(msg) + '\n'
+        print "------send------: " + self.msg_to_send
         try:
-            self.tcplink.send(msg)
-            self.log.log("----------send msg----------: "+msg)
+            self.tcplink.send(self.msg_to_send)
+            self.log.log("----------send msg----------: "+self.msg_to_send)
         except Exception as e:
             self.log.log("send exception: " + str(e))
+            print "send exception: " + str(e)
             time.sleep(3)
             self.conn()
-            self.send_msg(msg)
+            self.send_msg(json.loads(self.msg_to_send))
 
     def wash_msg(self, msg):
-        msg = json.loads(msg)
-        if msg["content"]["req_id"] == 123:
-            return True
-        else:
+        try:
+            msg = json.loads(msg)
+            flag_msg = json.loads(self.msg_to_send)
+            if msg["uuid"] == flag_msg["uuid"]:
+                return True
+            else:
+                return False
+        except:
             return False
 
     def recv_msg(self):
+        msg = ""
         try:
             msg = self.tcplink.recv(2048)
             print "------recv------: " + msg
             self.log.log("----------recv msg----------: "+msg)
             for each_msg in msg.split("\n"):
                 if self.wash_msg(each_msg):
-                    print "washed msg: " + str(each_msg)
+                    print "washed msg: " + each_msg
                     return each_msg
-            self.recv_msg()
+            print "no target msg, receive again !!"
+            return each_msg + self.recv_msg()
         except Exception as e:
+            print "recv exception: " + str(e)
             self.log.log("recv exception: " + str(e))
+            return msg
 
     def check_msg(self, req_id, msg):
         if msg["req_id"] == req_id:
@@ -71,5 +79,3 @@ class Socket_Cls(object):
     def close_conn(self):
         self.tcplink.close()
         self.log.log("disconnected to %s:%s" % (self.host, self.port))
-
-

@@ -1,0 +1,17 @@
+2019-05-08 15:04:22,329 - result - INFO - 
+----------第1轮测试----------
+
+2019-05-08 15:04:24,424 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
+2019-05-08 15:04:26,457 - result - INFO - 用例    PASS    app验证码登陆，phone缺失
+2019-05-08 15:04:28,536 - result - INFO - 用例    PASS    获取手机注册验证码，type错误
+2019-05-08 15:04:30,693 - result - INFO - 用例    PASS    校验手机验证码，手机号已注册
+2019-05-08 15:04:32,834 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-05-08 15:04:34,897 - result - INFO - 用例    FAIL    APP自动登录  code: -17010 msg: token expired!
+2019-05-08 15:04:36,976 - result - INFO - 用例    FAIL    获取其他登录的终端列表  code: -8003 msg: please login first!
+2019-05-08 15:04:39,055 - result - INFO - 用例    PASS    检查用户是否存在
+2019-05-08 15:04:41,125 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-05-08 15:04:43,203 - result - INFO - 用例    FAIL    获取用户帐号信息  code: -8003 msg: please login first!
+2019-05-08 15:04:45,282 - result - INFO - 用例    FAIL    用户更新资料  code: -8003 msg: please login first!
+2019-05-08 15:04:47,391 - result - INFO - 用例    FAIL    获取指定用户的信息  code: -8003 msg: please login first!
+2019-05-08 15:04:48,016 - result - INFO - 用例    FAIL    创建家庭  code: -14004 msg: user donot login
+2019-05-08 15:04:50,111 - result - INFO - 用例    FAIL    更新家庭基本信息  code: -14004 msg: user donot login

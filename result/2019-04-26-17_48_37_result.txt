@@ -1,0 +1,13 @@
+2019-04-26 17:48:39,471 - result - INFO - 用例    PASS    APP是否可用token登录
+2019-04-26 17:48:42,046 - result - INFO - 用例    PASS    APP自动登录
+2019-04-26 17:48:44,336 - result - INFO - 用例    PASS    获取其他登录的终端列表
+2019-04-26 17:48:46,509 - result - INFO - 用例    PASS    检查用户是否存在
+2019-04-26 17:48:48,661 - result - INFO - 用例    PASS    sip呼叫权限校验
+2019-04-26 17:48:50,846 - result - INFO - 用例    PASS    获取用户帐号信息
+2019-04-26 17:48:53,046 - result - INFO - 用例    PASS    用户更新资料
+2019-04-26 17:48:55,219 - result - INFO - 用例    PASS    获取指定用户的信息
+2019-04-26 17:48:55,456 - result - INFO - 用例    PASS    创建家庭
+2019-04-26 17:48:58,062 - result - INFO - 用例    PASS    更新家庭基本信息
+2019-04-26 17:49:00,209 - result - INFO - 用例    PASS    获取成员信息列表
+2019-04-26 17:49:02,457 - result - INFO - 用例    PASS    获取用户申请码
+2019-04-26 17:49:04,609 - result - INFO - 用例    FAIL    获取用户加入的家庭列表    recv_msg is too long
