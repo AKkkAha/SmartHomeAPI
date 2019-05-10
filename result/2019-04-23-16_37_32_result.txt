@@ -1,7 +1,0 @@
-2019-04-23 16:37:32,198 - result - INFO - 
-----------第1轮测试----------
-
-2019-04-23 16:37:34,289 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
-2019-04-23 16:37:36,335 - result - INFO - 用例    FAIL    app验证码登陆，phone错误  code: 0 msg: the client is auth ago.
-2019-04-23 16:37:38,368 - result - INFO - 用例    PASS    获取手机注册验证码，type错误
-2019-04-23 16:37:40,476 - result - INFO - 用例    PASS    校验手机验证码，手机号已注册

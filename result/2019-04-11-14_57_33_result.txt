@@ -1,3 +1,0 @@
-2019-04-11 14:57:35,197 - result - INFO - 用例    FAIL    APP自动登录  code: -17010 msg: token expired!
-2019-04-11 14:57:37,226 - result - INFO - 用例    PASS    获取手机登陆验证码，phone错误
-2019-04-11 14:57:39,275 - result - INFO - 用例    FAIL    app验证码登陆_反例  code: -17022 msg: login code expired

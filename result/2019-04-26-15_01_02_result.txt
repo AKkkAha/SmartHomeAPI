@@ -1,1 +1,0 @@
-2019-04-26 15:01:04,563 - result - INFO - 用例    PASS    APP是否可用token登录
