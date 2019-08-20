@@ -10,9 +10,9 @@ def get_phone_code(phonenumber, timeouts=5):
         time.sleep(3)
         client = paramiko.SSHClient()
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        client.connect('10.101.72.46', 22, 'hd_user', 'hd123456', timeout=timeouts)
+        client.connect('xx.xx.xx.xx', xx, 'xxxx', 'xxxxxxxx', timeout=timeouts)
         sftp_client = client.open_sftp()
-        remote_file = sftp_client.open('/home/iot/log/Out_Proxy_Svr_10.101.72.71_4600.log', 'r')
+        remote_file = sftp_client.open('xxxxxxxxxxxxxxxxxxxxxxxxxx', 'r')
         temp_file = remote_file.read()
         #temp_file = bytes.decode(temp_file)
         #print "check file"
