@@ -7,8 +7,8 @@ import time
 
 class Socket_Cls(object):
     def __init__(self):
-        self.host = '119.23.168.152'
-        self.port = 30086
+        self.host = 'xxxx.xxxxxx.xxxx.xxxx'
+        self.port = xxxxx
         self.tcplink = None
         self.log = logger.logcls.initial()
         self.msg_to_send = None
