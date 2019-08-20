@@ -5,12 +5,12 @@ import json
 import time
 import config
 from API_test_run import *
-uuid = '000c229d200000000000D0B60A0001C8'
+uuid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
 socket_test = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-socket_test.connect(("119.23.168.152", 30086))
+socket_test.connect(("xx.xx.xx.xx", xx))
 token = config.token
 send_msg = {
-        "uuid": "000c229d200000000000D0B60A0001C8",
+        "uuid": "xxxxxxxxxxxxxxxxxxxxxx",
         "encry": "false",
         "content":
             {
